@@ -1,0 +1,472 @@
+{
+    "name": "Pukorufu Packages",
+    "packages": {
+        "net.puk06.smiley-clip": {
+            "versions": {
+                "1.0.1": {
+                    "name": "net.puk06.smiley-clip",
+                    "displayName": "SmileyClip",
+                    "version": "1.0.1",
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "シーン上で簡単にBlendShapeアニメーションを作成、編集することが出来るUnityの拡張エディター",
+                    "vpmDependencies": {
+                        "com.vrchat.avatars": ">=3.2.0"
+                    },
+                    "legacyFolders": {
+                        "Assets\\ぷこのつーる\\SmileyClip": "b9aa22ea8fd50a2499a7ad431bd8de8d"
+                    },
+                    "url": "https://github.com/puk06/SmileyClip/releases/download/v1.0.1/net.puk06.smiley-clip-v1.0.1.zip?"
+                },
+                "1.0.2": {
+                    "name": "net.puk06.smiley-clip",
+                    "displayName": "SmileyClip",
+                    "version": "1.0.2",
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "シーン上で簡単にBlendShapeアニメーションを作成、編集することが出来るUnityの拡張エディター",
+                    "vpmDependencies": {
+                        "com.vrchat.avatars": ">=3.2.0"
+                    },
+                    "legacyFolders": {
+                        "Assets\\ぷこのつーる\\SmileyClip": "b9aa22ea8fd50a2499a7ad431bd8de8d"
+                    },
+                    "url": "https://github.com/puk06/SmileyClip/releases/download/v1.0.2/net.puk06.smiley-clip-v1.0.2.zip?"
+                }
+            }
+        },
+        "net.puk06.material_cloner": {
+            "versions": {
+                "1.0.0": {
+                    "name": "net.puk06.material_cloner",
+                    "displayName": "MaterialCloner",
+                    "version": "1.0.0",
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "マテリアルがクローンされたオブジェクトを作成する拡張エディタ",
+                    "url": "https://github.com/puk06/MaterialCloner/releases/download/v1.0.0/net.puk06.material_cloner-v1.0.0.zip?"
+                },
+                "1.0.1": {
+                    "name": "net.puk06.material_cloner",
+                    "displayName": "MaterialCloner",
+                    "version": "1.0.1",
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "マテリアルがクローンされたオブジェクトを作成する拡張エディタ",
+                    "url": "https://github.com/puk06/MaterialCloner/releases/download/v1.0.1/net.puk06.material_cloner-v1.0.1.zip?"
+                }
+            }
+        },
+        "net.puk06.color-changer": {
+            "versions": {
+                "1.0.0": {
+                    "name": "net.puk06.color-changer",
+                    "displayName": "Color Changer For Unity",
+                    "version": "1.0.0",
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "VRC Color Changer For Unity!",
+                    "url": "https://github.com/puk06/Color-Changer-For-Unity/releases/download/v1.0.0/net.puk06.color-changer-v1.0.0.zip?"
+                },
+                "1.0.1": {
+                    "name": "net.puk06.color-changer",
+                    "displayName": "Color Changer For Unity",
+                    "version": "1.0.1",
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "VRC Color Changer For Unity!",
+                    "url": "https://github.com/puk06/Color-Changer-For-Unity/releases/download/v1.0.1/net.puk06.color-changer-v1.0.1.zip?"
+                },
+                "1.0.2": {
+                    "name": "net.puk06.color-changer",
+                    "displayName": "Color Changer For Unity",
+                    "version": "1.0.2",
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "VRC Color Changer For Unity!",
+                    "url": "https://github.com/puk06/Color-Changer-For-Unity/releases/download/v1.0.2/net.puk06.color-changer-v1.0.2.zip?"
+                },
+                "1.0.3": {
+                    "name": "net.puk06.color-changer",
+                    "displayName": "Color Changer For Unity",
+                    "version": "1.0.3",
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "VRC Color Changer For Unity!",
+                    "url": "https://github.com/puk06/Color-Changer-For-Unity/releases/download/v1.0.3/net.puk06.color-changer-v1.0.3.zip?"
+                },
+                "1.1.0": {
+                    "name": "net.puk06.color-changer",
+                    "displayName": "Color Changer For Unity",
+                    "version": "1.1.0",
+                    "vpmDependencies": {
+                        "nadena.dev.ndmf": ">=1.5.0",
+                        "com.vrchat.base": ">=3.5.0"
+                    },
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "Non Destructive Color Changer For Unity!",
+                    "url": "https://github.com/puk06/Color-Changer-For-Unity/releases/download/v1.1.0/net.puk06.color-changer-v1.1.0.zip?"
+                },
+                "1.1.1": {
+                    "name": "net.puk06.color-changer",
+                    "displayName": "Color Changer For Unity",
+                    "version": "1.1.1",
+                    "vpmDependencies": {
+                        "nadena.dev.ndmf": ">=1.5.0",
+                        "com.vrchat.base": ">=3.5.0"
+                    },
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "Non-destructive Color Changer For Unity!",
+                    "url": "https://github.com/puk06/Color-Changer-For-Unity/releases/download/v1.1.1/net.puk06.color-changer-v1.1.1.zip?"
+                },
+                "1.2.0": {
+                    "name": "net.puk06.color-changer",
+                    "displayName": "Color Changer For Unity",
+                    "version": "1.2.0",
+                    "vpmDependencies": {
+                        "nadena.dev.ndmf": ">=1.5.0",
+                        "com.vrchat.base": ">=3.5.0"
+                    },
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "Non-destructive Color Changer For Unity!",
+                    "url": "https://github.com/puk06/Color-Changer-For-Unity/releases/download/v1.2.0/net.puk06.color-changer-v1.2.0.zip?"
+                },
+                "1.2.1": {
+                    "name": "net.puk06.color-changer",
+                    "displayName": "Color Changer For Unity",
+                    "version": "1.2.1",
+                    "vpmDependencies": {
+                        "nadena.dev.ndmf": ">=1.5.0",
+                        "com.vrchat.base": ">=3.5.0"
+                    },
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "Non-destructive Color Changer For Unity!",
+                    "url": "https://github.com/puk06/Color-Changer-For-Unity/releases/download/v1.2.1/net.puk06.color-changer-v1.2.1.zip?"
+                },
+                "1.3.0": {
+                    "name": "net.puk06.color-changer",
+                    "displayName": "Color Changer For Unity",
+                    "version": "1.3.0",
+                    "vpmDependencies": {
+                        "nadena.dev.ndmf": ">=1.5.0",
+                        "com.vrchat.base": ">=3.5.0"
+                    },
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "Non-destructive Color Changer For Unity!",
+                    "url": "https://github.com/puk06/Color-Changer-For-Unity/releases/download/v1.3.0/net.puk06.color-changer-v1.3.0.zip?"
+                },
+                "1.4.0": {
+                    "name": "net.puk06.color-changer",
+                    "displayName": "Color Changer For Unity",
+                    "version": "1.4.0",
+                    "vpmDependencies": {
+                        "nadena.dev.ndmf": ">=1.5.0",
+                        "com.vrchat.base": ">=3.5.0"
+                    },
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "Non-destructive Color Changer For Unity!",
+                    "url": "https://github.com/puk06/Color-Changer-For-Unity/releases/download/v1.4.0/net.puk06.color-changer-v1.4.0.zip?"
+                },
+                "1.5.0": {
+                    "name": "net.puk06.color-changer",
+                    "displayName": "Color Changer For Unity",
+                    "version": "1.5.0",
+                    "vpmDependencies": {
+                        "nadena.dev.ndmf": ">=1.5.0",
+                        "com.vrchat.base": ">=3.5.0"
+                    },
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "Non-destructive Color Changer For Unity!",
+                    "url": "https://github.com/puk06/Color-Changer-For-Unity/releases/download/v1.5.0/net.puk06.color-changer-v1.5.0.zip?"
+                },
+                "1.5.1": {
+                    "name": "net.puk06.color-changer",
+                    "displayName": "Color Changer For Unity",
+                    "version": "1.5.1",
+                    "vpmDependencies": {
+                        "nadena.dev.ndmf": ">=1.5.0",
+                        "com.vrchat.base": ">=3.5.0"
+                    },
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "Non-destructive Color Changer For Unity!",
+                    "url": "https://github.com/puk06/Color-Changer-For-Unity/releases/download/v1.5.1/net.puk06.color-changer-v1.5.1.zip?"
+                },
+                "1.5.2": {
+                    "name": "net.puk06.color-changer",
+                    "displayName": "Color Changer For Unity",
+                    "version": "1.5.2",
+                    "vpmDependencies": {
+                        "nadena.dev.ndmf": ">=1.5.0",
+                        "com.vrchat.base": ">=3.5.0"
+                    },
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "Non-destructive Color Changer For Unity!",
+                    "url": "https://github.com/puk06/Color-Changer-For-Unity/releases/download/v1.5.2/net.puk06.color-changer-v1.5.2.zip?"
+                },
+                "1.5.3": {
+                    "name": "net.puk06.color-changer",
+                    "displayName": "Color Changer For Unity",
+                    "version": "1.5.3",
+                    "vpmDependencies": {
+                        "nadena.dev.ndmf": ">=1.5.0",
+                        "com.vrchat.base": ">=3.5.0"
+                    },
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "Non-destructive Color Changer For Unity!",
+                    "url": "https://github.com/puk06/Color-Changer-For-Unity/releases/download/v1.5.3/net.puk06.color-changer-v1.5.3.zip?"
+                },
+                "1.6.0": {
+                    "name": "net.puk06.color-changer",
+                    "displayName": "Color Changer For Unity",
+                    "version": "1.6.0",
+                    "vpmDependencies": {
+                        "nadena.dev.ndmf": ">=1.5.0",
+                        "com.vrchat.base": ">=3.5.0",
+                        "net.puk06.texture-replacer": ">=1.0.0"
+                    },
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "Non-destructive Color Changer For Unity!",
+                    "url": "https://github.com/puk06/Color-Changer-For-Unity/releases/download/v1.6.0/net.puk06.color-changer-v1.6.0.zip?"
+                },
+                "1.7.0": {
+                    "name": "net.puk06.color-changer",
+                    "displayName": "Color Changer For Unity",
+                    "version": "1.7.0",
+                    "vpmDependencies": {
+                        "nadena.dev.ndmf": ">=1.5.0",
+                        "com.vrchat.base": ">=3.5.0",
+                        "net.puk06.texture-replacer": ">=1.0.0"
+                    },
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "Non-destructive Color Changer For Unity!",
+                    "url": "https://github.com/puk06/Color-Changer-For-Unity/releases/download/v1.7.0/net.puk06.color-changer-v1.7.0.zip?"
+                }
+            }
+        },
+        "net.puk06.udon-utils": {
+            "versions": {
+                "1.0.0": {
+                    "name": "net.puk06.udon-utils",
+                    "displayName": "UdonUtils",
+                    "version": "1.0.0",
+                    "vpmDependencies": {
+                        "com.vrchat.worlds": ">=3.5.0"
+                    },
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "Common Utility Functions for UdonSharp",
+                    "url": "https://github.com/puk06/UdonUtils/releases/download/v1.0.0/net.puk06.udon-utils-v1.0.0.zip?"
+                }
+            }
+        },
+        "net.puk06.canvas-animation-system": {
+            "versions": {
+                "0.0.1": {
+                    "name": "net.puk06.canvas-animation-system",
+                    "displayName": "Canvas Animation System",
+                    "version": "0.0.1",
+                    "vpmDependencies": {
+                        "com.vrchat.worlds": ">=3.5.0",
+                        "net.puk06.udon-utils": ">=1.0.0"
+                    },
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "Easy-to-use animation system for Unity Canvas with UdonSharp.",
+                    "url": "https://github.com/puk06/CanvasAnimationSystem/releases/download/v0.0.1/net.puk06.canvas-animation-system-v0.0.1.zip?"
+                },
+                "0.1.0": {
+                    "name": "net.puk06.canvas-animation-system",
+                    "displayName": "Canvas Animation System",
+                    "version": "0.1.0",
+                    "vpmDependencies": {
+                        "com.vrchat.worlds": ">=3.5.0",
+                        "net.puk06.udon-utils": ">=1.0.0"
+                    },
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "Easy-to-use animation system for Unity Canvas with UdonSharp.",
+                    "url": "https://github.com/puk06/CanvasAnimationSystem/releases/download/v0.1.0/net.puk06.canvas-animation-system-v0.1.0.zip?"
+                },
+                "0.1.1": {
+                    "name": "net.puk06.canvas-animation-system",
+                    "displayName": "Canvas Animation System",
+                    "version": "0.1.1",
+                    "vpmDependencies": {
+                        "com.vrchat.worlds": ">=3.5.0",
+                        "net.puk06.udon-utils": ">=1.0.0"
+                    },
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "Easy-to-use animation system for Unity Canvas with UdonSharp.",
+                    "url": "https://github.com/puk06/CanvasAnimationSystem/releases/download/v0.1.1/net.puk06.canvas-animation-system-v0.1.1.zip?"
+                },
+                "0.1.2": {
+                    "name": "net.puk06.canvas-animation-system",
+                    "displayName": "Canvas Animation System",
+                    "version": "0.1.2",
+                    "vpmDependencies": {
+                        "com.vrchat.worlds": ">=3.5.0",
+                        "net.puk06.udon-utils": ">=1.0.0"
+                    },
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "Easy-to-use animation system for Unity Canvas with UdonSharp.",
+                    "url": "https://github.com/puk06/CanvasAnimationSystem/releases/download/v0.1.2/net.puk06.canvas-animation-system-v0.1.2.zip?"
+                },
+                "0.2.0": {
+                    "name": "net.puk06.canvas-animation-system",
+                    "displayName": "Canvas Animation System",
+                    "version": "0.2.0",
+                    "vpmDependencies": {
+                        "com.vrchat.worlds": ">=3.5.0",
+                        "net.puk06.udon-utils": ">=1.0.0"
+                    },
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "Easy-to-use animation system for Unity Canvas with UdonSharp.",
+                    "url": "https://github.com/puk06/CanvasAnimationSystem/releases/download/v0.2.0/net.puk06.canvas-animation-system-v0.2.0.zip?"
+                }
+            }
+        },
+        "net.puk06.texture-replacer": {
+            "versions": {
+                "1.0.0": {
+                    "name": "net.puk06.texture-replacer",
+                    "displayName": "Puko's Texture Replacer",
+                    "version": "1.0.0",
+                    "vpmDependencies": {
+                        "nadena.dev.ndmf": ">=1.5.0",
+                        "com.vrchat.base": ">=3.5.0"
+                    },
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "Puko's Non-Destructive Texture Replacer",
+                    "url": "https://github.com/puk06/Texture-Replacer/releases/download/v1.0.0/net.puk06.texture-replacer-v1.0.0.zip?"
+                }
+            }
+        }
+    },
+    "author": "Pukorufu",
+    "id": "net.puk06.vpm",
+    "url": "https://vpm.pukosrv.net/"
+}
