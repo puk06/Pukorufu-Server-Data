@@ -1,5 +1,5 @@
 {
-    "LatestVersion": "1.9.0",
+    "LatestVersion": "1.8.0",
     "ChangeLog": [
         "LUT設定の追加",
         "ビルド時のテクスチャ重複時の処理の修正"
