@@ -1,7 +1,8 @@
-Version: 1.0.0
-初期リリース
-
 Version: 1.1.0
 ImagePadの音がメインフロアでしか再生されなかったのを修正
 Post ProcessingのON / OFF切り替えボタンの追加
 ワールド案内用のUIの追加
+
+Version: 1.0.0
+初期リリース
+
