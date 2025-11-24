@@ -1,6 +1,7 @@
 {
     "LatestVersion": "1.10.6",
     "ChangeLog": [
+        "コンポーネントUIの変更",
         "マスクのBlack、WhiteにAlpha値の条件の追加",
         "ExtendedRenderTextureはFilterMode.Bilinearをデフォルトに変更",
         "CPUレンダリング + プレビュー時のマスク処理の修正",
