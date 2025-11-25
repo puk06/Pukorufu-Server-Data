@@ -1,10 +1,8 @@
 {
-    "LatestVersion": "1.10.6",
+    "LatestVersion": "1.10.7",
     "ChangeLog": [
-        "コンポーネントUIの変更",
-        "マスクのBlack、WhiteにAlpha値の条件の追加",
-        "ExtendedRenderTextureはFilterMode.Bilinearをデフォルトに変更",
-        "CPUレンダリング + プレビュー時のマスク処理の修正",
-        "CPUプレビューの解像度も1/4に変更"
+        "大幅なリファクタリング",
+        "CPUレンダリングの選択を削除（GPUベースで処理するように）",
+        "一部の翻訳のキーの修正"
     ]
 }
