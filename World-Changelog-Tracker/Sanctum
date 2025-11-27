@@ -1,3 +1,7 @@
+Version: 1.10.8
+階段を防音室に変更
+風呂場のYamaPlayerを削除し、軽量化
+
 Version: 1.10.7
 防音室ギミックをv1.8.1に更新
 Audio Channel Managerと防音室ギミックのチェック周期を1秒に変更
