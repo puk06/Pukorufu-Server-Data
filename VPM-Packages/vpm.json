@@ -40,6 +40,25 @@
                         "Assets\\ぷこのつーる\\SmileyClip": "b9aa22ea8fd50a2499a7ad431bd8de8d"
                     },
                     "url": "https://github.com/puk06/SmileyClip/releases/download/v1.0.2/net.puk06.smiley-clip-v1.0.2.zip?"
+                },
+                "1.0.3": {
+                    "name": "net.puk06.smiley-clip",
+                    "displayName": "SmileyClip",
+                    "version": "1.0.3",
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "シーン上で簡単にBlendShapeアニメーションを作成、編集することが出来るUnityの拡張エディター",
+                    "vpmDependencies": {
+                        "com.vrchat.avatars": ">=3.2.0"
+                    },
+                    "legacyFolders": {
+                        "Assets\\ぷこのつーる\\SmileyClip": "b9aa22ea8fd50a2499a7ad431bd8de8d"
+                    },
+                    "url": "https://github.com/puk06/SmileyClip/releases/download/v1.0.3/net.puk06.smiley-clip-v1.0.3.zip?"
                 }
             }
         },
