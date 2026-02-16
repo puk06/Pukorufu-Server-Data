@@ -1,6 +1,6 @@
 {
-    "LatestVersion": "1.10.11",
+    "LatestVersion": "1.10.13",
     "ChangeLog": [
-        "テクスチャ自動適用時は、そのテクスチャ名をオブジェクト名にするように変更"
+        "StreamingMipmapsが有効になっていなかったのを修正"
     ]
 }
