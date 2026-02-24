@@ -677,6 +677,27 @@
                 }
             }
         },
+        "net.puk06.tex-stack-editor": {
+            "versions": {
+                "1.0.0": {
+                    "name": "net.puk06.tex-stack-editor",
+                    "displayName": "TexStackEditor",
+                    "version": "1.0.0",
+                    "vpmDependencies": {
+                        "nadena.dev.ndmf": ">=1.5.0",
+                        "com.vrchat.base": ">=3.5.0"
+                    },
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "An advanced layer-based texture editing and baking tool for VRChat avatars in Unity.",
+                    "url": "https://github.com/puk06/TexStackEditor/releases/download/v1.0.0/net.puk06.tex-stack-editor-v1.0.0.zip?"
+                }
+            }
+        },
         "net.puk06.udon-utils": {
             "versions": {
                 "1.0.0": {
