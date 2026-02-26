@@ -842,6 +842,23 @@
                     "unity": "2022.3",
                     "description": "Puko's Non-Destructive Texture Replacer",
                     "url": "https://github.com/puk06/Texture-Replacer/releases/download/v1.0.1/net.puk06.texture-replacer-v1.0.1.zip?"
+                },
+                "2.0.0": {
+                    "name": "net.puk06.texture-replacer",
+                    "displayName": "Puko's Texture Replacer",
+                    "version": "2.0.0",
+                    "vpmDependencies": {
+                        "nadena.dev.ndmf": ">=1.5.0",
+                        "com.vrchat.base": ">=3.5.0"
+                    },
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "Puko's Non-Destructive Texture Replacer",
+                    "url": "https://github.com/puk06/Texture-Replacer/releases/download/v2.0.0/net.puk06.texture-replacer-v2.0.0.zip?"
                 }
             }
         }
