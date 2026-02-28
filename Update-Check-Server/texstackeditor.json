@@ -1,6 +1,6 @@
 {
-    "LatestVersion": "1.0.0",
+    "LatestVersion": "1.0.2",
     "ChangeLog": [
-        "初期リリース"
+        "ObjectRegistoryにマテリアルの変更の登録を忘れていたのを修正"
     ]
 }
