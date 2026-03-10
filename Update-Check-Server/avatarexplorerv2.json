@@ -1,8 +1,19 @@
 {
     "Releases": [
         {
+            "Version": "2.0.0-beta.1",
+            "ReleaseDate": "2026-03-10",
+            "ChangeLogs": {
+                "Added": [],
+                "Fixed": [
+                    "fix: update localization keys from Type to Category in UI by @puk06"
+                ],
+                "Changed": []
+            }
+        },
+        {
             "Version": "2.0.0-beta.0",
-            "ReleaseDate": "2026-02-01",
+            "ReleaseDate": "2026-03-09",
             "ChangeLogs": {
                 "Added": [],
                 "Fixed": [],
