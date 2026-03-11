@@ -4,10 +4,10 @@
             "Version": "2.0.0-beta.2",
             "ReleaseDate": "2026-03-11",
             "ChangeLogs": {
-                "Added": [],
-                "Fixed": [
+                "Added": [
                     "feat: add bulk import preset by @puk06"
                 ],
+                "Fixed": [],
                 "Changed": []
             }
         },
