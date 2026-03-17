@@ -33,20 +33,16 @@ function classify(commits) {
 
     for (const c of commits) {
         let msg = c.commit.message.split("\n")[0];
-        const author = c.author?.login || "unknown";
-
         const normalized = msg.toLowerCase();
         
         msg = msg.replace(/^\w+(\(.+\))?:\s*/, "");
 
-        const line = `${msg} by @${author}`;
-
         if (normalized.startsWith("feat")) {
-            result.Added.push(line);
+            result.Added.push(msg);
         } else if (normalized.startsWith("fix")) {
-            result.Fixed.push(line);
+            result.Fixed.push(msg);
         } else {
-            result.Changed.push(line);
+            result.Changed.push(msg);
         }
     }
 

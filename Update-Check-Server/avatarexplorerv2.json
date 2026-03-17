@@ -5,23 +5,23 @@
             "ReleaseDate": "2026-03-17",
             "ChangeLogs": {
                 "Added": [
-                    "add temp avatar (#47) by @puk06",
-                    "return generated ID from Add methods (#57) by @puk06"
+                    "add temp avatar (#47)",
+                    "return generated ID from Add methods (#57)"
                 ],
                 "Fixed": [
-                    "ensure window comes to front when Activate is called (#39) by @puk06",
-                    "localization fix for RemoveItem context menu (#48) by @puk06",
-                    "reset text content when TextDialogOverlay closes (#50) by @puk06",
-                    "ensure item is fully removed from all references on deletion (#52) by @puk06",
-                    "ensure UpdatedDate is updated when title is changed (#53) by @puk06",
-                    "include all releases in GetPendingUpdates regardless of prerelease status (#56) by @puk06"
+                    "ensure window comes to front when Activate is called (#39)",
+                    "localization fix for RemoveItem context menu (#48)",
+                    "reset text content when TextDialogOverlay closes (#50)",
+                    "ensure item is fully removed from all references on deletion (#52)",
+                    "ensure UpdatedDate is updated when title is changed (#53)",
+                    "include all releases in GetPendingUpdates regardless of prerelease status (#56)"
                 ],
                 "Changed": [
-                    "unify yes/no result checks to use != YesNoResult.Yes (#49) by @puk06",
-                    "initializing and database manager (#51) by @puk06",
-                    "enforce single instance for Core (#54) by @puk06",
-                    "update readme (#55) by @puk06",
-                    "bump version to 2.0.0-beta.4 (#58) by @puk06"
+                    "unify yes/no result checks to use != YesNoResult.Yes (#49)",
+                    "initializing and database manager (#51)",
+                    "enforce single instance for Core (#54)",
+                    "update readme (#55)",
+                    "bump version to 2.0.0-beta.4 (#58)"
                 ]
             }
         },
@@ -30,19 +30,19 @@
             "ReleaseDate": "2026-03-16",
             "ChangeLogs": {
                 "Added": [
-                    "add confirmation dialog for adding files to existing item (#23) by @puk06"
+                    "add confirmation dialog for adding files to existing item (#23)"
                 ],
                 "Fixed": [
-                    "item update dates not freshing (#25) by @puk06",
-                    "ensure UpdatedDate is updated in all item update paths (#34) by @puk06"
+                    "item update dates not freshing (#25)",
+                    "ensure UpdatedDate is updated in all item update paths (#34)"
                 ],
                 "Changed": [
-                    "rename field in InitialSetupOverlay (#27) by @puk06",
-                    "rename methods and variables (#31) by @puk06",
-                    "refactor data importer and exporter (#32) by @puk06",
-                    "prevent downcast with immutable array (#33) by @puk06",
-                    "remove unused using directives (#35) by @puk06",
-                    "bump version to 2.0.0-beta.3 (#36) by @puk06"
+                    "rename field in InitialSetupOverlay (#27)",
+                    "rename methods and variables (#31)",
+                    "refactor data importer and exporter (#32)",
+                    "prevent downcast with immutable array (#33)",
+                    "remove unused using directives (#35)",
+                    "bump version to 2.0.0-beta.3 (#36)"
                 ]
             }
         },
@@ -51,16 +51,16 @@
             "ReleaseDate": "2026-03-11",
             "ChangeLogs": {
                 "Added": [
-                    "add bulk import preset (#18) by @puk06"
+                    "add bulk import preset (#18)"
                 ],
                 "Fixed": [
-                    "remove deprecated macOS runtime configuration from release workflow (#11) by @puk06"
+                    "remove deprecated macOS runtime configuration from release workflow (#11)"
                 ],
                 "Changed": [
-                    "update README to clarify differences with KonoAsset and improve installation instructions (#12) by @puk06",
-                    "replace IDatabaseItem with AbstractDatabaseItem and introduce AbstractDatabaseManager for better code reuse (#19) by @puk06",
-                    "rename methods to follow README naming conventions (#20) by @puk06",
-                    "bump version to 2.0.0-beta.2 (#21) by @puk06"
+                    "update README to clarify differences with KonoAsset and improve installation instructions (#12)",
+                    "replace IDatabaseItem with AbstractDatabaseItem and introduce AbstractDatabaseManager for better code reuse (#19)",
+                    "rename methods to follow README naming conventions (#20)",
+                    "bump version to 2.0.0-beta.2 (#21)"
                 ]
             }
         },
@@ -70,11 +70,11 @@
             "ChangeLogs": {
                 "Added": [],
                 "Fixed": [
-                    "update localization keys from Type to Category in UI and locale files (#8) by @puk06"
+                    "update localization keys from Type to Category in UI and locale files (#8)"
                 ],
                 "Changed": [
-                    "add support for additional runtime environments in release workflow (#9) by @puk06",
-                    "bump version to v2.0.0-beta.1 (#10) by @puk06"
+                    "add support for additional runtime environments in release workflow (#9)",
+                    "bump version to v2.0.0-beta.1 (#10)"
                 ]
             }
         },
