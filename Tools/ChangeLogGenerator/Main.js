@@ -85,12 +85,12 @@ async function main() {
     };
 
     fs.writeFileSync(
-        "releases.json",
+        "../../Update-Check-Server/avatarexplorerv2.json",
         JSON.stringify(output, null, 4),
         "utf-8"
     );
 
-    console.log("完了: releases.json を生成しました");
+    console.log("完了: 生成しました");
 }
 
 main().catch(console.error);

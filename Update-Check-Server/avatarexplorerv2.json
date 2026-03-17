@@ -1,6 +1,21 @@
 {
     "Releases": [
         {
+            "Version": "2.0.0-beta.5",
+            "ReleaseDate": "2026-03-17",
+            "ChangeLogs": {
+                "Added": [
+                    "map konoasset category to item type (#62)"
+                ],
+                "Fixed": [
+                    "progress bar does not disappear after data import (#60)"
+                ],
+                "Changed": [
+                    "bump version to 2.0.0-beta.5 (#63)"
+                ]
+            }
+        },
+        {
             "Version": "2.0.0-beta.4",
             "ReleaseDate": "2026-03-17",
             "ChangeLogs": {
