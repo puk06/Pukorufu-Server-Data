@@ -76,7 +76,7 @@ async function main() {
         }
 
         result.push({
-            Version: current.tag_name,
+            Version: current.tag_name.slice(1),
             ReleaseDate: current.published_at.split("T")[0],
             ChangeLogs: changeLogs
         });

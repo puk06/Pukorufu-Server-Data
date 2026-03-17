@@ -1,7 +1,7 @@
 {
     "Releases": [
         {
-            "Version": "v2.0.0-beta.4",
+            "Version": "2.0.0-beta.4",
             "ReleaseDate": "2026-03-17",
             "ChangeLogs": {
                 "Added": [
@@ -26,7 +26,7 @@
             }
         },
         {
-            "Version": "v2.0.0-beta.3",
+            "Version": "2.0.0-beta.3",
             "ReleaseDate": "2026-03-16",
             "ChangeLogs": {
                 "Added": [
@@ -47,7 +47,7 @@
             }
         },
         {
-            "Version": "v2.0.0-beta.2",
+            "Version": "2.0.0-beta.2",
             "ReleaseDate": "2026-03-11",
             "ChangeLogs": {
                 "Added": [
@@ -65,7 +65,7 @@
             }
         },
         {
-            "Version": "v2.0.0-beta.1",
+            "Version": "2.0.0-beta.1",
             "ReleaseDate": "2026-03-10",
             "ChangeLogs": {
                 "Added": [],
@@ -79,7 +79,7 @@
             }
         },
         {
-            "Version": "v2.0.0-beta.0",
+            "Version": "2.0.0-beta.0",
             "ReleaseDate": "2026-03-09",
             "ChangeLogs": {
                 "Added": [],
