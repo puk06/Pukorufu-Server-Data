@@ -1,6 +1,31 @@
 {
     "Releases": [
         {
+            "Version": "2.0.0-beta.7",
+            "ReleaseDate": "2026-03-19",
+            "ChangeLogs": {
+                "Added": [
+                    "prioritize main avatar display over temporary avatar (#68)",
+                    "add tooltip for temp avatar (#69)",
+                    "implement custom category name editing (#80)",
+                    "add Font category to file types (#81)"
+                ],
+                "Fixed": [
+                    "localization for Edit Implemented Avatars overlay and update dialog (#74)"
+                ],
+                "Changed": [
+                    "add CI check to verify LocalizationKeys.g.cs is up to date (#73)",
+                    "update pull request guidelines and commit message format (#75)",
+                    "add AI usage guidelines for contributions (#76)",
+                    "update AI usage guidelines for contributions (#77)",
+                    "improve author aggregation by using distinct and ordering authors (#78)",
+                    "fix TempAvatar localization key categorization (#79)",
+                    "auto-detect advanced search instead of manual toggle (#83)",
+                    "bump version to 2.0.0-beta.7 (#84)"
+                ]
+            }
+        },
+        {
             "Version": "2.0.0-beta.6",
             "ReleaseDate": "2026-03-18",
             "ChangeLogs": {
