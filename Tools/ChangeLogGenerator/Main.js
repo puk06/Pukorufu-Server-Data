@@ -52,7 +52,7 @@ function classify(commits) {
 async function main() {
     const releases = await getAllReleases();
 
-    const sorted = releases.reverse();
+    const sorted = releases.sort((a, b) => new Date(a.created_at) - new Date(b.created_at));
 
     const result = [];
 

@@ -1,6 +1,34 @@
 {
     "Releases": [
         {
+            "Version": "2.0.0-beta.10",
+            "ReleaseDate": "2026-03-19",
+            "ChangeLogs": {
+                "Added": [
+                    "add reset functionality for bulk import preset database and update localization (#102)",
+                    "add option to remove asset data when deleting an item and update localization (#103)",
+                    "add About section to Settings screen (#104)"
+                ],
+                "Fixed": [],
+                "Changed": [
+                    "bump version to 2.0.0-beta.10 (#105)"
+                ]
+            }
+        },
+        {
+            "Version": "2.0.0-beta.9",
+            "ReleaseDate": "2026-03-19",
+            "ChangeLogs": {
+                "Added": [],
+                "Fixed": [
+                    "update thumbnail filename mapping logic in data importer (#98)"
+                ],
+                "Changed": [
+                    "bump version to 2.0.0-beta.9 (#99)"
+                ]
+            }
+        },
+        {
             "Version": "2.0.0-beta.8",
             "ReleaseDate": "2026-03-19",
             "ChangeLogs": {
