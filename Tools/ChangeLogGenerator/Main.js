@@ -71,9 +71,13 @@ async function main() {
             changeLogs = classify(commits);
         }
 
+        const date = new Date(current.published_at);
+        const jstDate = new Date(date.getTime() + (9 * 60 * 60 * 1000));
+        const releaseDateStr = jstDate.toISOString().split("T")[0];
+
         result.push({
             Version: current.tag_name.slice(1),
-            ReleaseDate: current.published_at.split("T")[0],
+            ReleaseDate: releaseDateStr,
             ChangeLogs: changeLogs
         });
     }

@@ -2,7 +2,7 @@
     "Releases": [
         {
             "Version": "2.0.0-beta.10",
-            "ReleaseDate": "2026-03-19",
+            "ReleaseDate": "2026-03-20",
             "ChangeLogs": {
                 "Added": [
                     "add reset functionality for bulk import preset database and update localization (#102)",
@@ -128,7 +128,7 @@
         },
         {
             "Version": "2.0.0-beta.3",
-            "ReleaseDate": "2026-03-16",
+            "ReleaseDate": "2026-03-17",
             "ChangeLogs": {
                 "Added": [
                     "add confirmation dialog for adding files to existing item (#23)"
