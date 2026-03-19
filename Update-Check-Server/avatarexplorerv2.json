@@ -1,6 +1,25 @@
 {
     "Releases": [
         {
+            "Version": "2.0.0-beta.8",
+            "ReleaseDate": "2026-03-19",
+            "ChangeLogs": {
+                "Added": [
+                    "implement abstract classes for KonoAsset items and databases, add support for other assets (#85)",
+                    "add language code support for Booth links and update localization files (#94)"
+                ],
+                "Fixed": [
+                    "remove extension from thumbnail filenames (#91)",
+                    "update target framework from net10.0 to net9.0 in project file (#92)",
+                    "correct default category in custom category item editing (#95)"
+                ],
+                "Changed": [
+                    "remove author thumbnail references and related properties from models and UI (#89)",
+                    "bump version to v2.0.0-beta.8 (#96)"
+                ]
+            }
+        },
+        {
             "Version": "2.0.0-beta.7",
             "ReleaseDate": "2026-03-19",
             "ChangeLogs": {
