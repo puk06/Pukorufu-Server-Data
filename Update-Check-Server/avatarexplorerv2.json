@@ -1,6 +1,24 @@
 {
     "Releases": [
         {
+            "Version": "2.0.0-beta.11",
+            "ReleaseDate": "2026-03-22",
+            "ChangeLogs": {
+                "Added": [],
+                "Fixed": [
+                    "add missing SaveItemDatabase calls and relocate save timing (#107)",
+                    "add missing UpdateSearchIndex calls in remove and resolve operations (#108)",
+                    "add UpdateSearchIndex call after importing items (#109)",
+                    "replace string.Join with string.Format for error message consistency (#110)",
+                    "clear item search index before updating to ensure accurate results (#111)",
+                    "handle thumbnail fetch failure with appropriate error message (#112)"
+                ],
+                "Changed": [
+                    "bump version to 2.0.0-beta.11 (#113)"
+                ]
+            }
+        },
+        {
             "Version": "2.0.0-beta.10",
             "ReleaseDate": "2026-03-20",
             "ChangeLogs": {
