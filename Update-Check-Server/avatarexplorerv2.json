@@ -1,6 +1,25 @@
 {
     "Releases": [
         {
+            "Version": "2.0.0-beta.12",
+            "ReleaseDate": "2026-03-23",
+            "ChangeLogs": {
+                "Added": [
+                    "implement search exclusion with tilde and refactor search filter structure (#117)",
+                    "redesign advanced search panel to vertical layout and make OR toggles mutually exclusive (#118)",
+                    "add option to treat empty supported avatars as none in advanced search (#119)",
+                    "add negation hint for advanced search functionality in localization files (#120)"
+                ],
+                "Fixed": [
+                    "correct translation of \"Category\" to \"カテゴリ\" in advanced search (#114)",
+                    "skip existing item lookup when BoothId is unknown (-1) (#115)"
+                ],
+                "Changed": [
+                    "bump version to 2.0.0-beta.12 (#121)"
+                ]
+            }
+        },
+        {
             "Version": "2.0.0-beta.11",
             "ReleaseDate": "2026-03-22",
             "ChangeLogs": {
