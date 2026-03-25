@@ -1,6 +1,28 @@
 {
     "Releases": [
         {
+            "Version": "2.0.0-beta.16",
+            "ReleaseDate": "2026-03-25",
+            "ChangeLogs": {
+                "Added": [],
+                "Fixed": [
+                    "remove outdated font license information and related credits from THIRD_PARTY_LICENSES.txt (#138)",
+                    "correct null check for confirmation dialog result in asset removal (#140)",
+                    "isolate selected item id per MainWindow overlay to avoid cross-overlay overwrite (#141)",
+                    "await data-copy confirmation flow when applying settings (#142)",
+                    "rename thumbnail key typo and add item DB migration (#143)",
+                    "ensure search index reflects avatar DB changes before refresh (#144)",
+                    "refresh search index after replacing supported avatars (#145)",
+                    "propagate AddItemPaths failure in EditItem (#146)"
+                ],
+                "Changed": [
+                    "update installation instructions for Windows and non-Windows platforms (#139)",
+                    "reduce importer CPU spikes by throttling copy parallelism (#147)",
+                    "bump version to 2.0.0-beta.16 (#148)"
+                ]
+            }
+        },
+        {
             "Version": "2.0.0-beta.15",
             "ReleaseDate": "2026-03-24",
             "ChangeLogs": {
