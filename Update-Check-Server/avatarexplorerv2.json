@@ -20,7 +20,8 @@
                     "reduce importer CPU spikes by throttling copy parallelism (#147)",
                     "bump version to 2.0.0-beta.16 (#148)"
                 ]
-            }
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.0.0-beta.16"
         },
         {
             "Version": "2.0.0-beta.15",
@@ -33,7 +34,8 @@
                 "Changed": [
                     "bump version to 2.0.0-beta.15 (#137)"
                 ]
-            }
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.0.0-beta.15"
         },
         {
             "Version": "2.0.0-beta.14",
@@ -42,7 +44,8 @@
                 "Added": [],
                 "Fixed": [],
                 "Changed": []
-            }
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.0.0-beta.14"
         }
     ]
 }

@@ -76,9 +76,12 @@ async function main() {
         const releaseDateStr = jstDate.toISOString().split("T")[0];
 
         result.push({
-            Version: current.tag_name.slice(1),
+            Version: current.tag_name.startsWith("v")
+                ? current.tag_name.slice(1).replace(/-stable$/, "")
+                : current.tag_name.replace(/-stable$/, ""),
             ReleaseDate: releaseDateStr,
-            ChangeLogs: changeLogs
+            ChangeLogs: changeLogs,
+            ReleaseUrl: "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/" + current.tag_name
         });
     }
 
