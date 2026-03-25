@@ -1,6 +1,19 @@
 {
     "Releases": [
         {
+            "Version": "2.0.1",
+            "ReleaseDate": "2026-03-25",
+            "ChangeLogs": {
+                "Added": [],
+                "Fixed": [],
+                "Changed": [
+                    "add .NET Runtime license information to THIRD_PARTY_LICENSES.txt (#156)",
+                    "bump version to 2.0.1 (#158)"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.0.1-stable"
+        },
+        {
             "Version": "2.0.0",
             "ReleaseDate": "2026-03-25",
             "ChangeLogs": {
