@@ -1,6 +1,26 @@
 {
     "Releases": [
         {
+            "Version": "2.0.0",
+            "ReleaseDate": "2026-03-25",
+            "ChangeLogs": {
+                "Added": [
+                    "support releaseUrl from update manifest and use it for update dialog links (#153)"
+                ],
+                "Fixed": [
+                    "use TextParser in SearchFilterBuilder to preserve quoted values (#149)",
+                    "make text input take precedence when advanced search is also set (#150)",
+                    "improve backup reliability and error handling (#151)"
+                ],
+                "Changed": [
+                    "bump version to 2.0.0 (#152)",
+                    "add version tag usage guidelines to README (#154)",
+                    "switch stable tag suffix from -release to -stable and update readme policy (#155)"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.0.0-stable"
+        },
+        {
             "Version": "2.0.0-beta.16",
             "ReleaseDate": "2026-03-25",
             "ChangeLogs": {
