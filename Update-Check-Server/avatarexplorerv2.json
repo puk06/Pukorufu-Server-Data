@@ -1,6 +1,21 @@
 {
     "Releases": [
         {
+            "Version": "2.0.3",
+            "ReleaseDate": "2026-03-26",
+            "ChangeLogs": {
+                "Added": [],
+                "Fixed": [
+                    "handle leading './' in paths for legacy AvatarExplorer data (#164)",
+                    "simplify item path handling in data import process (#165)"
+                ],
+                "Changed": [
+                    "bump version to 2.0.3 (#166)"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.0.3-stable"
+        },
+        {
             "Version": "2.0.2",
             "ReleaseDate": "2026-03-26",
             "ChangeLogs": {

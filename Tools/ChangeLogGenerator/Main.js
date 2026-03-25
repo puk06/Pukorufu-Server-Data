@@ -45,6 +45,10 @@ function classify(commits) {
             result.Changed.push(msg);
         }
     }
+    
+    for (const key in result) {
+        result[key] = [...new Set(result[key])];
+    }
 
     return result;
 }
