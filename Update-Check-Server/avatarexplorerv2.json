@@ -1,6 +1,22 @@
 {
     "Releases": [
         {
+            "Version": "2.0.2",
+            "ReleaseDate": "2026-03-26",
+            "ChangeLogs": {
+                "Added": [
+                    "add Windows-only check for scheme feature (#160)"
+                ],
+                "Fixed": [
+                    "handle non-system item and image paths in V1 data import (#162)"
+                ],
+                "Changed": [
+                    "bump version to 2.0.2 (#163)"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.0.2-stable"
+        },
+        {
             "Version": "2.0.1",
             "ReleaseDate": "2026-03-25",
             "ChangeLogs": {
