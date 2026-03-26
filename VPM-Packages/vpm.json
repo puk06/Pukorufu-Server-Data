@@ -714,7 +714,7 @@
                 "2.0.4": {
                     "name": "net.puk06.color-changer",
                     "displayName": "Color Changer For Unity",
-                    "version": "2.0.3",
+                    "version": "2.0.4",
                     "vpmDependencies": {
                         "nadena.dev.ndmf": ">=1.5.0",
                         "com.vrchat.base": ">=3.5.0",
