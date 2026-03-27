@@ -1,6 +1,26 @@
 {
     "Releases": [
         {
+            "Version": "2.2.0-beta.0",
+            "ReleaseDate": "2026-03-27",
+            "ChangeLogs": {
+                "Added": [
+                    "add option to use original folders without copying (#194)",
+                    "show asset path in delete confirmation dialog (#195)",
+                    "add confirmation dialog for copying asset data during import process (#196)"
+                ],
+                "Fixed": [
+                    "include prerelease versions in update checks for VersionReleaseExtensions (#193)",
+                    "prevent linkedToOriginal paths from being treated as relative (#197)"
+                ],
+                "Changed": [
+                    "update localization strings (#198)",
+                    "bump verison to 2.2.0-beta.0 (#199)"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.2.0-beta.0"
+        },
+        {
             "Version": "2.1.0",
             "ReleaseDate": "2026-03-27",
             "ChangeLogs": {
