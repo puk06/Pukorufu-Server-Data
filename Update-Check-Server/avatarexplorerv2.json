@@ -1,6 +1,33 @@
 {
     "Releases": [
         {
+            "Version": "2.1.0-beta.0",
+            "ReleaseDate": "2026-03-27",
+            "ChangeLogs": {
+                "Added": [
+                    "add method to retrieve search index by item ID (#171)",
+                    "enhance search functionality in common, supported and implemented avatars overlays (#174)",
+                    "enhance search functionality in resolve temp avatars overlay (#180)",
+                    "add \"Select Visible\" button next to overlay search boxes (#185)"
+                ],
+                "Fixed": [
+                    "restrict common avatar conversion to clothing only (#170)",
+                    "remove GitHub deployments badge from README files (#175)",
+                    "improve filename sanitization by using HashSet for invalid characters and adding edge trimming (#177)",
+                    "ensure overlays reset state on close and improve visibility handling (#178)",
+                    "improve avatar overlay search matching to be case-insensitive (#181)"
+                ],
+                "Changed": [
+                    "simplify avatar search matching logic in overlays (#179)",
+                    "add semantic versioning guidelines to README (#182)",
+                    "simplify custom category rename loop with LINQ filtering (#183)",
+                    "change ItemTagInfo from record to class (#184)",
+                    "bump version to 2.1.0-beta.0 (#186)"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.1.0-beta.0"
+        },
+        {
             "Version": "2.0.3",
             "ReleaseDate": "2026-03-26",
             "ChangeLogs": {
