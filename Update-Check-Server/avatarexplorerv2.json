@@ -1,6 +1,23 @@
 {
     "Releases": [
         {
+            "Version": "2.1.0",
+            "ReleaseDate": "2026-03-27",
+            "ChangeLogs": {
+                "Added": [
+                    "add thumbnail import functionality with UI support (#189)"
+                ],
+                "Fixed": [
+                    "correct AEv1 thumbnail path detection (#188)",
+                    "update thumbnail path handling in DataImporter (#190)"
+                ],
+                "Changed": [
+                    "bump version to 2.1.0 (#191)"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.1.0-stable"
+        },
+        {
             "Version": "2.1.0-beta.0",
             "ReleaseDate": "2026-03-27",
             "ChangeLogs": {
