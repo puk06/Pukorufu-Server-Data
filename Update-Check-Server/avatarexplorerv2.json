@@ -1,6 +1,26 @@
 {
     "Releases": [
         {
+            "Version": "2.2.0-beta.2",
+            "ReleaseDate": "2026-03-29",
+            "ChangeLogs": {
+                "Added": [
+                    "add support for password-protected archive extraction (#208)"
+                ],
+                "Fixed": [
+                    "update extractor fallback to copy files for unsupported formats (#210)"
+                ],
+                "Changed": [
+                    "introduce UnitypackageSelectorButtonOptions and update bulk import button creation (#203)",
+                    "introduce SearchContext for ItemSearchService.ExecuteSearch (#204)",
+                    "split DataExporter inputs into ExportContext and ExportRequest (#205)",
+                    "introduce ImportRequest for DataImporter import flows (#206)",
+                    "bump version to 2.2.0-beta.2 (#211)"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.2.0-beta.2"
+        },
+        {
             "Version": "2.2.0-beta.1",
             "ReleaseDate": "2026-03-27",
             "ChangeLogs": {
