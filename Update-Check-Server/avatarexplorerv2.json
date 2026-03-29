@@ -1,6 +1,25 @@
 {
     "Releases": [
         {
+            "Version": "2.2.0-beta.3",
+            "ReleaseDate": "2026-03-29",
+            "ChangeLogs": {
+                "Added": [
+                    "add Open Log Folder button to error overlay"
+                ],
+                "Fixed": [
+                    "handle empty item paths in ExtractItemFolders method (#213)"
+                ],
+                "Changed": [
+                    "add AppMutex for single-instance setup behavior (#212)",
+                    "make ErrorLogWriter thread-safe and improve log write reliability (#214)",
+                    "standardize ErrorOr method parameter naming (#217)",
+                    "bump version to 2.2.0-beta.3 (#218)"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.2.0-beta.3"
+        },
+        {
             "Version": "2.2.0-beta.2",
             "ReleaseDate": "2026-03-29",
             "ChangeLogs": {
