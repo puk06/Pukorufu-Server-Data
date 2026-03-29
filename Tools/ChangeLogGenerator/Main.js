@@ -53,6 +53,16 @@ function classify(commits) {
     return result;
 }
 
+function normalizeVersion(tagName) {
+    return tagName.startsWith("v")
+        ? tagName.slice(1).replace(/-stable$/, "")
+        : tagName.replace(/-stable$/, "");
+}
+
+function findReleaseByTag(releases, tagName) {
+    return releases.find(r => r.tag_name === tagName);
+}
+
 async function main() {
     const releases = await getAllReleases();
 
@@ -71,7 +81,17 @@ async function main() {
         };
 
         if (prev) {
-            const commits = await getCommits(prev.tag_name, current.tag_name);
+            let compareFromTag = prev.tag_name;
+
+            // v2.2.0-stable only: include all beta changes since v2.1.0-stable.
+            if (current.tag_name === "v2.2.0-stable") {
+                const v210Stable = findReleaseByTag(sorted, "v2.1.0-stable");
+                if (v210Stable) {
+                    compareFromTag = v210Stable.tag_name;
+                }
+            }
+
+            const commits = await getCommits(compareFromTag, current.tag_name);
             changeLogs = classify(commits);
         }
 
@@ -80,9 +100,7 @@ async function main() {
         const releaseDateStr = jstDate.toISOString().split("T")[0];
 
         result.push({
-            Version: current.tag_name.startsWith("v")
-                ? current.tag_name.slice(1).replace(/-stable$/, "")
-                : current.tag_name.replace(/-stable$/, ""),
+            Version: normalizeVersion(current.tag_name),
             ReleaseDate: releaseDateStr,
             ChangeLogs: changeLogs,
             ReleaseUrl: "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/" + current.tag_name
