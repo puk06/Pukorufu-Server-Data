@@ -1,7 +1,6 @@
 {
-    "LatestVersion": "2.0.4",
+    "LatestVersion": "2.0.5",
     "ChangeLog": [
-        "マテリアルの置き換え処理の最適化",
-        "AAO: Avatar Optimizerの最適化を邪魔していたのを修正"
+        "LLC v2.4.0以降と干渉する問題の修正"
     ]
 }
