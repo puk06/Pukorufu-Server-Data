@@ -1,6 +1,24 @@
 {
     "Releases": [
         {
+            "Version": "2.3.0-beta.0",
+            "ReleaseDate": "2026-04-03",
+            "ChangeLogs": {
+                "Added": [
+                    "add unitypackage viewer (#224)",
+                    "add \"All\" category (#226)"
+                ],
+                "Fixed": [],
+                "Changed": [
+                    "replace pre-build LocalizationKeyGenerator exec with Roslyn IIncrementalGenerator (#222)",
+                    "chore: replace pre-build LocalizationKeyGenerator exec (#223)",
+                    "move unitypackage check to PathUtils for better code reuse (#225)",
+                    "bump version to 2.3.0-beta.0 (#227)"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.3.0-beta.0"
+        },
+        {
             "Version": "2.2.0",
             "ReleaseDate": "2026-03-29",
             "ChangeLogs": {
