@@ -1,6 +1,6 @@
 {
-    "LatestVersion": "1.0.4",
+    "LatestVersion": "1.0.5",
     "ChangeLog": [
-        "LLC v2.4.0以降と干渉する問題の修正"
+        "LLC V1と一緒に使ったときにフリーズするバグの修正"
     ]
 }
