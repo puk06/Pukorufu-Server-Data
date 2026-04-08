@@ -1,6 +1,27 @@
 {
     "Releases": [
         {
+            "Version": "2.3.0-beta.1",
+            "ReleaseDate": "2026-04-09",
+            "ChangeLogs": {
+                "Added": [
+                    "add option to convert relative paths to absolute during data migration (#231)",
+                    "add SortByFileName extension method and apply sorting in file enumeration (#238)",
+                    "add option to treat empty supported avatars as none in settings (#239)",
+                    "add merge category (#240)"
+                ],
+                "Fixed": [
+                    "restore window state when activate window (#233)",
+                    "update default ItemSortOrder to Updated in RuntimeSettings (#232)",
+                    "remove unnecessary whitespace in localization files (#241)"
+                ],
+                "Changed": [
+                    "bump version to 2.3.0-beta.1 (#242)"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.3.0-beta.1"
+        },
+        {
             "Version": "2.3.0-beta.0",
             "ReleaseDate": "2026-04-03",
             "ChangeLogs": {
