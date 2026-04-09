@@ -1,6 +1,22 @@
 {
     "Releases": [
         {
+            "Version": "2.3.0",
+            "ReleaseDate": "2026-04-10",
+            "ChangeLogs": {
+                "Added": [
+                    "add internal ID handling for item categories (#243)",
+                    "update context menu icon types (#244)",
+                    "reorder item file category types (#245)"
+                ],
+                "Fixed": [],
+                "Changed": [
+                    "bump version to 2.3.0 (#246)"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.3.0-stable"
+        },
+        {
             "Version": "2.3.0-beta.1",
             "ReleaseDate": "2026-04-09",
             "ChangeLogs": {
