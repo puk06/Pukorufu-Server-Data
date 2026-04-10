@@ -1,6 +1,20 @@
 {
     "Releases": [
         {
+            "Version": "2.3.1",
+            "ReleaseDate": "2026-04-11",
+            "ChangeLogs": {
+                "Added": [],
+                "Fixed": [
+                    "ensure material files are displayed correctly (#247)"
+                ],
+                "Changed": [
+                    "bump version to 2.3.1 (#248)"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.3.1-stable"
+        },
+        {
             "Version": "2.3.0",
             "ReleaseDate": "2026-04-10",
             "ChangeLogs": {
