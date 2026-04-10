@@ -1173,6 +1173,22 @@
                     "unity": "2022.3",
                     "description": "A tool for non-destructively synchronizing a material's shader shadow settings with other materials.",
                     "url": "https://github.com/puk06/MaterialShadowSync/releases/download/v1.0.3/net.puk06.material-shadow-sync-v1.0.3.zip?"
+                },
+                "1.0.4": {
+                    "name": "net.puk06.material-shadow-sync",
+                    "displayName": "Material Shadow Sync",
+                    "version": "1.0.4",
+                    "vpmDependencies": {
+                        "net.puk06.material-property-sync-core": ">=1.0.0"
+                    },
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "A tool for non-destructively synchronizing a material's shader shadow settings with other materials.",
+                    "url": "https://github.com/puk06/MaterialShadowSync/releases/download/v1.0.4/net.puk06.material-shadow-sync-v1.0.4.zip?"
                 }
             }
         },
