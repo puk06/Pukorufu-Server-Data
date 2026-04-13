@@ -1,6 +1,21 @@
 {
     "Releases": [
         {
+            "Version": "2.3.2-beta.0",
+            "ReleaseDate": "2026-04-14",
+            "ChangeLogs": {
+                "Added": [],
+                "Fixed": [
+                    "restore ScrollViewer position correctly after view rendering (#251)",
+                    "reset scroll position when a screen is closed (#253)"
+                ],
+                "Changed": [
+                    "bump version to 2.3.2-beta.0 (#254)"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.3.2-beta.0"
+        },
+        {
             "Version": "2.3.1",
             "ReleaseDate": "2026-04-11",
             "ChangeLogs": {
