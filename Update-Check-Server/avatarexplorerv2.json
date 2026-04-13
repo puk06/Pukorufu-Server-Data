@@ -1,6 +1,20 @@
 {
     "Releases": [
         {
+            "Version": "2.4.0-beta.1",
+            "ReleaseDate": "2026-04-14",
+            "ChangeLogs": {
+                "Added": [
+                    "show all items on startup (#265)"
+                ],
+                "Fixed": [],
+                "Changed": [
+                    "bump version to 2.4.0-beta.1 (#266)"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.4.0-beta.1"
+        },
+        {
             "Version": "2.4.0-beta.0",
             "ReleaseDate": "2026-04-14",
             "ChangeLogs": {
