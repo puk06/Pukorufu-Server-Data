@@ -1,6 +1,20 @@
 {
     "Releases": [
         {
+            "Version": "2.4.0-beta.2",
+            "ReleaseDate": "2026-04-14",
+            "ChangeLogs": {
+                "Added": [
+                    "implement thumbnail caching and warmup in background (#268)"
+                ],
+                "Fixed": [],
+                "Changed": [
+                    "bump version to 2.4.0-beta.2 (#269)"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.4.0-beta.2"
+        },
+        {
             "Version": "2.4.0-beta.1",
             "ReleaseDate": "2026-04-14",
             "ChangeLogs": {
