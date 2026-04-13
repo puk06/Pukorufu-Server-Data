@@ -1,6 +1,26 @@
 {
     "Releases": [
         {
+            "Version": "2.4.0-beta.0",
+            "ReleaseDate": "2026-04-14",
+            "ChangeLogs": {
+                "Added": [
+                    "add various themes (#258)",
+                    "add various themes (#262)"
+                ],
+                "Fixed": [
+                    "add unchecked flag to desktop icon task (#259)",
+                    "update button classes for accent and tag styling (#261)",
+                    "update danger button styles (#263)"
+                ],
+                "Changed": [
+                    "add action to verify Windows installer can be built (#260)",
+                    "bump version to 2.4.0-beta.0 (#264)"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.4.0-beta.0"
+        },
+        {
             "Version": "2.3.2",
             "ReleaseDate": "2026-04-14",
             "ChangeLogs": {
