@@ -1,6 +1,23 @@
 {
     "Releases": [
         {
+            "Version": "2.4.0-beta.4",
+            "ReleaseDate": "2026-04-14",
+            "ChangeLogs": {
+                "Added": [],
+                "Fixed": [
+                    "resolve Avalonia v12 regressions and adjust UI spacing and update localization (#274)",
+                    "update Diagnostics package versions (#275)"
+                ],
+                "Changed": [
+                    "migrate Avalonia from v11 to v12 (#273)",
+                    "replace button classes with accentbutton in Add Item overlay (#276)",
+                    "bump version to 2.4.0-beta.4 (#277)"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.4.0-beta.4"
+        },
+        {
             "Version": "2.4.0-beta.3",
             "ReleaseDate": "2026-04-14",
             "ChangeLogs": {
