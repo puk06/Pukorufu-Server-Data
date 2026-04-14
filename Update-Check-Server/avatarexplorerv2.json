@@ -1,6 +1,20 @@
 {
     "Releases": [
         {
+            "Version": "2.4.0-beta.3",
+            "ReleaseDate": "2026-04-14",
+            "ChangeLogs": {
+                "Added": [],
+                "Fixed": [
+                    "remove unnecessary button from MainWindow side panel (#270)"
+                ],
+                "Changed": [
+                    "bump version to 2.4.0-beta.3 (#271)"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.4.0-beta.3"
+        },
+        {
             "Version": "2.4.0-beta.2",
             "ReleaseDate": "2026-04-14",
             "ChangeLogs": {
