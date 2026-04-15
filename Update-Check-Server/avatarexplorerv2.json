@@ -1,6 +1,21 @@
 {
     "Releases": [
         {
+            "Version": "2.4.0-beta.6",
+            "ReleaseDate": "2026-04-15",
+            "ChangeLogs": {
+                "Added": [],
+                "Fixed": [
+                    "update button styles in AddItemOverlay for better visibility (#284)"
+                ],
+                "Changed": [
+                    "add standardized version bump rules to README (#285)",
+                    "bump version to 2.4.0-beta.6 (#286)"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.4.0-beta.6"
+        },
+        {
             "Version": "2.4.0-beta.5",
             "ReleaseDate": "2026-04-15",
             "ChangeLogs": {
