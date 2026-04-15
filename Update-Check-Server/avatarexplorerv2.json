@@ -1,6 +1,24 @@
 {
     "Releases": [
         {
+            "Version": "2.4.0",
+            "ReleaseDate": "2026-04-15",
+            "ChangeLogs": {
+                "Added": [
+                    "update button style for tag addition in EditTagsOverlay (#291)",
+                    "update import type overlay layout and button styles (#293)"
+                ],
+                "Fixed": [
+                    "remove foreground color from AddItem buttons in AddItemOverlay (#292)"
+                ],
+                "Changed": [
+                    "feat: add enable search in folder setting (#294)",
+                    "bump version to 2.4.0 (#295)"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.4.0-stable"
+        },
+        {
             "Version": "2.4.0-beta.8",
             "ReleaseDate": "2026-04-15",
             "ChangeLogs": {
