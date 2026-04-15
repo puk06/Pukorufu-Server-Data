@@ -1,6 +1,24 @@
 {
     "Releases": [
         {
+            "Version": "2.4.0-beta.5",
+            "ReleaseDate": "2026-04-15",
+            "ChangeLogs": {
+                "Added": [],
+                "Fixed": [
+                    "preload only thumbnails that need loading (#278)",
+                    "adjust Grid column definition for tag addition layout (#280)",
+                    "update SharpCompress version to 0.47.4 and remove Avalonia.Diagnostics package from UI project (#281)"
+                ],
+                "Changed": [
+                    "clean up theme resource keys and theme separators (#279)",
+                    "reorganize theme resource keys and improve text color theming (#282)",
+                    "bump version to 2.4.0-beta.5 (#283)"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.4.0-beta.5"
+        },
+        {
             "Version": "2.4.0-beta.4",
             "ReleaseDate": "2026-04-14",
             "ChangeLogs": {
