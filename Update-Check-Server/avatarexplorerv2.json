@@ -1,6 +1,20 @@
 {
     "Releases": [
         {
+            "Version": "2.4.0-beta.7",
+            "ReleaseDate": "2026-04-15",
+            "ChangeLogs": {
+                "Added": [
+                    "implement tab click initialization and toggle behavior for side panel tabs (#287)"
+                ],
+                "Fixed": [],
+                "Changed": [
+                    "bump version to 2.4.0-beta.7 (#288)"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.4.0-beta.7"
+        },
+        {
             "Version": "2.4.0-beta.6",
             "ReleaseDate": "2026-04-15",
             "ChangeLogs": {
