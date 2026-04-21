@@ -1,6 +1,38 @@
 {
     "Releases": [
         {
+            "Version": "2.5.0-beta.0",
+            "ReleaseDate": "2026-04-21",
+            "ChangeLogs": {
+                "Added": [
+                    "enhance tag editing functionality with async handling and error management (#296)",
+                    "add separator in AddItemOverlay (#297)",
+                    "improve EditMemoOverlay with async handling and error management (#298)",
+                    "add advanced settings in AddItemOverlay (#299)",
+                    "refactor EditSupportedAvatarsOverlay to use string array for avatar handling (#300)",
+                    "update advanced settings label in AddItemOverlay (#301)",
+                    "update application name references to use display name in installer configuration (#302)",
+                    "update BoothLink and BoothMapping categories (#309)",
+                    "add None icon to SystemIconKey and update related icon handling (#315)"
+                ],
+                "Fixed": [
+                    "preserve accent button foreground in template style (#314)",
+                    "set LeaveStreamOpen to false in ReaderOptions (#318)"
+                ],
+                "Changed": [
+                    "add CONTRIBUTING.md (#303)",
+                    "refactor layout and improve spacing in MainWindow.axaml (#304)",
+                    "simplify null checks for SettingsOverlay controls (#305)",
+                    "remove redundant comparison in README (#306)",
+                    "add theme resource comments (#307)",
+                    "standardize color values in App.axaml to rgba format (#313)",
+                    "improve layout and spacing in AddItemOverlay and EditTagsOverlay (#319)",
+                    "bump version to 2.5.0-beta.0 (#320)"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.5.0-beta.0"
+        },
+        {
             "Version": "2.4.0",
             "ReleaseDate": "2026-04-15",
             "ChangeLogs": {
@@ -500,24 +532,10 @@
             "ReleaseDate": "2026-03-24",
             "ChangeLogs": {
                 "Added": [],
-                "Fixed": [
-                    "remove unnecessary privileges override and clean up desktop icon task flags (#135)"
-                ],
-                "Changed": [
-                    "bump version to 2.0.0-beta.15 (#137)"
-                ]
-            },
-            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.0.0-beta.15"
-        },
-        {
-            "Version": "2.0.0-beta.14",
-            "ReleaseDate": "2026-03-24",
-            "ChangeLogs": {
-                "Added": [],
                 "Fixed": [],
                 "Changed": []
             },
-            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.0.0-beta.14"
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.0.0-beta.15"
         }
     ]
 }
