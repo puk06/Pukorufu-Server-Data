@@ -5,29 +5,29 @@
             "ReleaseDate": "2026-04-21",
             "ChangeLogs": {
                 "Added": [
-                    "enhance tag editing functionality with async handling and error management (#296)",
-                    "add separator in AddItemOverlay (#297)",
-                    "improve EditMemoOverlay with async handling and error management (#298)",
-                    "add advanced settings in AddItemOverlay (#299)",
-                    "refactor EditSupportedAvatarsOverlay to use string array for avatar handling (#300)",
-                    "update advanced settings label in AddItemOverlay (#301)",
-                    "update application name references to use display name in installer configuration (#302)",
-                    "update BoothLink and BoothMapping categories (#309)",
-                    "add None icon to SystemIconKey and update related icon handling (#315)"
+                    "enhance tag editing functionality with async handling and error management by @puk06",
+                    "add separator in AddItemOverlay by @puk06",
+                    "improve EditMemoOverlay with async handling and error management by @puk06",
+                    "add advanced settings in AddItemOverlay by @puk06",
+                    "refactor EditSupportedAvatarsOverlay to use string array for avatar handling by @puk06",
+                    "update advanced settings label in AddItemOverlay by @puk06",
+                    "update application name references to use display name in installer configuration by @puk06",
+                    "update BoothLink and BoothMapping categories by @puk06",
+                    "add None icon to SystemIconKey and update related icon handling by @puk06"
                 ],
                 "Fixed": [
-                    "preserve accent button foreground in template style (#314)",
-                    "set LeaveStreamOpen to false in ReaderOptions (#318)"
+                    "preserve accent button foreground in template style by @Copilot",
+                    "set LeaveStreamOpen to false in ReaderOptions by @puk06"
                 ],
                 "Changed": [
-                    "add CONTRIBUTING.md (#303)",
-                    "refactor layout and improve spacing in MainWindow.axaml (#304)",
-                    "simplify null checks for SettingsOverlay controls (#305)",
-                    "remove redundant comparison in README (#306)",
-                    "add theme resource comments (#307)",
-                    "standardize color values in App.axaml to rgba format (#313)",
-                    "improve layout and spacing in AddItemOverlay and EditTagsOverlay (#319)",
-                    "bump version to 2.5.0-beta.0 (#320)"
+                    "add CONTRIBUTING.md by @puk06",
+                    "refactor layout and improve spacing in MainWindow.axaml by @puk06",
+                    "simplify null checks for SettingsOverlay controls by @puk06",
+                    "remove redundant comparison in README by @puk06",
+                    "add theme resource comments by @puk06",
+                    "standardize color values in App.axaml to rgba format by @puk06",
+                    "improve layout and spacing in AddItemOverlay and EditTagsOverlay by @puk06",
+                    "bump version to 2.5.0-beta.0 by @puk06"
                 ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.5.0-beta.0"
@@ -37,15 +37,15 @@
             "ReleaseDate": "2026-04-15",
             "ChangeLogs": {
                 "Added": [
-                    "update button style for tag addition in EditTagsOverlay (#291)",
-                    "update import type overlay layout and button styles (#293)"
+                    "update button style for tag addition in EditTagsOverlay by @puk06",
+                    "update import type overlay layout and button styles by @puk06"
                 ],
                 "Fixed": [
-                    "remove foreground color from AddItem buttons in AddItemOverlay (#292)"
+                    "remove foreground color from AddItem buttons in AddItemOverlay by @puk06"
                 ],
                 "Changed": [
-                    "feat: add enable search in folder setting (#294)",
-                    "bump version to 2.4.0 (#295)"
+                    "feat: add enable search in folder setting by @puk06",
+                    "bump version to 2.4.0 by @puk06"
                 ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.4.0-stable"
@@ -55,11 +55,11 @@
             "ReleaseDate": "2026-04-15",
             "ChangeLogs": {
                 "Added": [
-                    "add enable search in folder setting (#289)"
+                    "add enable search in folder setting by @puk06"
                 ],
                 "Fixed": [],
                 "Changed": [
-                    "bump version to 2.4.0-beta.8 (#290)"
+                    "bump version to 2.4.0-beta.8 by @puk06"
                 ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.4.0-beta.8"
@@ -69,11 +69,11 @@
             "ReleaseDate": "2026-04-15",
             "ChangeLogs": {
                 "Added": [
-                    "implement tab click initialization and toggle behavior for side panel tabs (#287)"
+                    "implement tab click initialization and toggle behavior for sidepanel tabs by @puk06"
                 ],
                 "Fixed": [],
                 "Changed": [
-                    "bump version to 2.4.0-beta.7 (#288)"
+                    "bump version to 2.4.0-beta.7 by @puk06"
                 ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.4.0-beta.7"
@@ -84,11 +84,11 @@
             "ChangeLogs": {
                 "Added": [],
                 "Fixed": [
-                    "update button styles in AddItemOverlay for better visibility (#284)"
+                    "update button styles in AddItemOverlay for better visibility by @puk06"
                 ],
                 "Changed": [
-                    "add standardized version bump rules to README (#285)",
-                    "bump version to 2.4.0-beta.6 (#286)"
+                    "add standardized version bump rules to README by @puk06",
+                    "bump version to 2.4.0-beta.6 by @puk06"
                 ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.4.0-beta.6"
@@ -99,14 +99,14 @@
             "ChangeLogs": {
                 "Added": [],
                 "Fixed": [
-                    "preload only thumbnails that need loading (#278)",
-                    "adjust Grid column definition for tag addition layout (#280)",
-                    "update SharpCompress version to 0.47.4 and remove Avalonia.Diagnostics package from UI project (#281)"
+                    "preload only thumbnails that need loading by @puk06",
+                    "adjust Grid column definition for tag addition layout by @puk06",
+                    "update SharpCompress version to 0.47.4 and remove Avalonia.Diagnostics package from UI project by @puk06"
                 ],
                 "Changed": [
-                    "clean up theme resource keys and theme separators (#279)",
-                    "reorganize theme resource keys and improve text color theming (#282)",
-                    "bump version to 2.4.0-beta.5 (#283)"
+                    "clean up theme resource keys and theme separators by @puk06",
+                    "reorganize theme resource keys and improve text color theming by @puk06",
+                    "bump version to 2.4.0-beta.5 by @puk06"
                 ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.4.0-beta.5"
@@ -117,13 +117,13 @@
             "ChangeLogs": {
                 "Added": [],
                 "Fixed": [
-                    "resolve Avalonia v12 regressions and adjust UI spacing and update localization (#274)",
-                    "update Diagnostics package versions (#275)"
+                    "resolve Avalonia v12 regressions and adjust UI spacing and update localization by @puk06",
+                    "update Diagnostics package versions by @puk06"
                 ],
                 "Changed": [
-                    "migrate Avalonia from v11 to v12 (#273)",
-                    "replace button classes with accentbutton in Add Item overlay (#276)",
-                    "bump version to 2.4.0-beta.4 (#277)"
+                    "migrate Avalonia from v11 to v12 by @puk06",
+                    "replace button classes with accentbutton in Add Item overlay by @puk06",
+                    "bump version to 2.4.0-beta.4 by @puk06"
                 ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.4.0-beta.4"
@@ -134,10 +134,10 @@
             "ChangeLogs": {
                 "Added": [],
                 "Fixed": [
-                    "remove unnecessary button from MainWindow side panel (#270)"
+                    "remove unnecessary button from MainWindow side panel by @puk06"
                 ],
                 "Changed": [
-                    "bump version to 2.4.0-beta.3 (#271)"
+                    "bump version to 2.4.0-beta.3 by @puk06"
                 ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.4.0-beta.3"
@@ -147,11 +147,11 @@
             "ReleaseDate": "2026-04-14",
             "ChangeLogs": {
                 "Added": [
-                    "implement thumbnail caching and warmup in background (#268)"
+                    "implement thumbnail caching and warmup in background by @puk06"
                 ],
                 "Fixed": [],
                 "Changed": [
-                    "bump version to 2.4.0-beta.2 (#269)"
+                    "bump version to 2.4.0-beta.2 by @puk06"
                 ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.4.0-beta.2"
@@ -161,11 +161,11 @@
             "ReleaseDate": "2026-04-14",
             "ChangeLogs": {
                 "Added": [
-                    "show all items on startup (#265)"
+                    "show all items on startup by @puk06"
                 ],
                 "Fixed": [],
                 "Changed": [
-                    "bump version to 2.4.0-beta.1 (#266)"
+                    "bump version to 2.4.0-beta.1 by @puk06"
                 ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.4.0-beta.1"
@@ -175,17 +175,16 @@
             "ReleaseDate": "2026-04-14",
             "ChangeLogs": {
                 "Added": [
-                    "add various themes (#258)",
-                    "add various themes (#262)"
+                    "add various themes by @puk06"
                 ],
                 "Fixed": [
-                    "add unchecked flag to desktop icon task (#259)",
-                    "update button classes for accent and tag styling (#261)",
-                    "update danger button styles (#263)"
+                    "add unchecked flag to desktop icon task by @puk06",
+                    "update button classes for accent and tag styling by @puk06",
+                    "update danger button styles by @puk06"
                 ],
                 "Changed": [
-                    "add action to verify Windows installer can be built (#260)",
-                    "bump version to 2.4.0-beta.0 (#264)"
+                    "add action to verify Windows installer can be built by @puk06",
+                    "bump version to 2.4.0-beta.0 by @puk06"
                 ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.4.0-beta.0"
@@ -197,7 +196,7 @@
                 "Added": [],
                 "Fixed": [],
                 "Changed": [
-                    "bump version to 2.3.2 (#255)"
+                    "bump version to 2.3.2 by @puk06"
                 ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.3.2-stable"
@@ -208,11 +207,11 @@
             "ChangeLogs": {
                 "Added": [],
                 "Fixed": [
-                    "restore ScrollViewer position correctly after view rendering (#251)",
-                    "reset scroll position when a screen is closed (#253)"
+                    "restore ScrollViewer position correctly after view rendering by @puk06",
+                    "reset scroll position when a screen is closed by @puk06"
                 ],
                 "Changed": [
-                    "bump version to 2.3.2-beta.0 (#254)"
+                    "bump version to 2.3.2-beta.0 by @puk06"
                 ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.3.2-beta.0"
@@ -223,10 +222,10 @@
             "ChangeLogs": {
                 "Added": [],
                 "Fixed": [
-                    "ensure material files are displayed correctly (#247)"
+                    "ensure material files are displayed correctly by @puk06"
                 ],
                 "Changed": [
-                    "bump version to 2.3.1 (#248)"
+                    "bump version to 2.3.1 by @puk06"
                 ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.3.1-stable"
@@ -236,13 +235,13 @@
             "ReleaseDate": "2026-04-10",
             "ChangeLogs": {
                 "Added": [
-                    "add internal ID handling for item categories (#243)",
-                    "update context menu icon types (#244)",
-                    "reorder item file category types (#245)"
+                    "add internal ID handling for item categories by @puk06",
+                    "update context menu icon types by @puk06",
+                    "reorder item file category types by @puk06"
                 ],
                 "Fixed": [],
                 "Changed": [
-                    "bump version to 2.3.0 (#246)"
+                    "bump version to 2.3.0 by @puk06"
                 ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.3.0-stable"
@@ -252,18 +251,18 @@
             "ReleaseDate": "2026-04-09",
             "ChangeLogs": {
                 "Added": [
-                    "add option to convert relative paths to absolute during data migration (#231)",
-                    "add SortByFileName extension method and apply sorting in file enumeration (#238)",
-                    "add option to treat empty supported avatars as none in settings (#239)",
-                    "add merge category (#240)"
+                    "add option to convert relative paths to absolute during data migration by @puk06",
+                    "add SortByFileName extension method and apply sorting in file enumeration by @puk06",
+                    "add option to treat empty supported avatars as none in settings by @puk06",
+                    "add merge category by @puk06"
                 ],
                 "Fixed": [
-                    "restore window state when activate window (#233)",
-                    "update default ItemSortOrder to Updated in RuntimeSettings (#232)",
-                    "remove unnecessary whitespace in localization files (#241)"
+                    "restore window state when activate window by @puk06",
+                    "update default ItemSortOrder to Updated in RuntimeSettings by @puk06",
+                    "remove unnecessary whitespace in localization files by @puk06"
                 ],
                 "Changed": [
-                    "bump version to 2.3.0-beta.1 (#242)"
+                    "bump version to 2.3.0-beta.1 by @puk06"
                 ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.3.0-beta.1"
@@ -273,15 +272,15 @@
             "ReleaseDate": "2026-04-03",
             "ChangeLogs": {
                 "Added": [
-                    "add unitypackage viewer (#224)",
-                    "add \"All\" category (#226)"
+                    "add unitypackage viewer by @puk06",
+                    "add \"All\" category by @puk06"
                 ],
                 "Fixed": [],
                 "Changed": [
-                    "replace pre-build LocalizationKeyGenerator exec with Roslyn IIncrementalGenerator (#222)",
-                    "chore: replace pre-build LocalizationKeyGenerator exec (#223)",
-                    "move unitypackage check to PathUtils for better code reuse (#225)",
-                    "bump version to 2.3.0-beta.0 (#227)"
+                    "replace pre-build LocalizationKeyGenerator exec with Roslyn IIncrementalGenerator by @Copilot",
+                    "chore: replace pre-build LocalizationKeyGenerator exec by @puk06",
+                    "move unitypackage check to PathUtils for better code reuse by @puk06",
+                    "bump version to 2.3.0-beta.0 by @puk06"
                 ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.3.0-beta.0"
@@ -290,35 +289,12 @@
             "Version": "2.2.0",
             "ReleaseDate": "2026-03-29",
             "ChangeLogs": {
-                "Added": [
-                    "add option to use original folders without copying (#194)",
-                    "show asset path in delete confirmation dialog (#195)",
-                    "add confirmation dialog for copying asset data during import process (#196)",
-                    "add support for password-protected archive extraction (#208)",
-                    "add Open Log Folder button to error overlay"
-                ],
+                "Added": [],
                 "Fixed": [
-                    "include prerelease versions in update checks for VersionReleaseExtensions (#193)",
-                    "prevent linkedToOriginal paths from being treated as relative (#197)",
-                    "remove unnecessary directory existence checks in DataImporter (#200)",
-                    "update extractor fallback to copy files for unsupported formats (#210)",
-                    "handle empty item paths in ExtractItemFolders method (#213)",
-                    "propagate attempt values and handle cancel during archive extraction (#219)"
+                    "propagate attempt values and handle cancel during archive extraction by @puk06"
                 ],
                 "Changed": [
-                    "update localization strings (#198)",
-                    "bump verison to 2.2.0-beta.0 (#199)",
-                    "bump version to 2.2.0-beta.1 (#201)",
-                    "introduce UnitypackageSelectorButtonOptions and update bulk import button creation (#203)",
-                    "introduce SearchContext for ItemSearchService.ExecuteSearch (#204)",
-                    "split DataExporter inputs into ExportContext and ExportRequest (#205)",
-                    "introduce ImportRequest for DataImporter import flows (#206)",
-                    "bump version to 2.2.0-beta.2 (#211)",
-                    "add AppMutex for single-instance setup behavior (#212)",
-                    "make ErrorLogWriter thread-safe and improve log write reliability (#214)",
-                    "standardize ErrorOr method parameter naming (#217)",
-                    "bump version to 2.2.0-beta.3 (#218)",
-                    "bump version to 2.2.0 (#220)"
+                    "bump version to 2.2.0 by @puk06"
                 ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.2.0-stable"
@@ -328,16 +304,16 @@
             "ReleaseDate": "2026-03-29",
             "ChangeLogs": {
                 "Added": [
-                    "add Open Log Folder button to error overlay"
+                    "add Open Log Folder button to error overlay by @puk06"
                 ],
                 "Fixed": [
-                    "handle empty item paths in ExtractItemFolders method (#213)"
+                    "handle empty item paths in ExtractItemFolders method by @puk06"
                 ],
                 "Changed": [
-                    "add AppMutex for single-instance setup behavior (#212)",
-                    "make ErrorLogWriter thread-safe and improve log write reliability (#214)",
-                    "standardize ErrorOr method parameter naming (#217)",
-                    "bump version to 2.2.0-beta.3 (#218)"
+                    "add AppMutex for single-instance setup behavior by @puk06",
+                    "make ErrorLogWriter thread-safe and improve log write reliability by @puk06",
+                    "standardize ErrorOr method parameter naming by @puk06",
+                    "bump version to 2.2.0-beta.3 by @puk06"
                 ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.2.0-beta.3"
@@ -347,17 +323,17 @@
             "ReleaseDate": "2026-03-29",
             "ChangeLogs": {
                 "Added": [
-                    "add support for password-protected archive extraction (#208)"
+                    "add support for password-protected archive extraction by @puk06"
                 ],
                 "Fixed": [
-                    "update extractor fallback to copy files for unsupported formats (#210)"
+                    "update extractor fallback to copy files for unsupported formats by @puk06"
                 ],
                 "Changed": [
-                    "introduce UnitypackageSelectorButtonOptions and update bulk import button creation (#203)",
-                    "introduce SearchContext for ItemSearchService.ExecuteSearch (#204)",
-                    "split DataExporter inputs into ExportContext and ExportRequest (#205)",
-                    "introduce ImportRequest for DataImporter import flows (#206)",
-                    "bump version to 2.2.0-beta.2 (#211)"
+                    "introduce UnitypackageSelectorButtonOptions and update bulk import button creation by @puk06",
+                    "introduce SearchContext for ItemSearchService.ExecuteSearch by @puk06",
+                    "split DataExporter inputs into ExportContext and ExportRequest by @puk06",
+                    "introduce ImportRequest for DataImporter import flows by @puk06",
+                    "bump version to 2.2.0-beta.2 by @puk06"
                 ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.2.0-beta.2"
@@ -368,10 +344,10 @@
             "ChangeLogs": {
                 "Added": [],
                 "Fixed": [
-                    "remove unnecessary directory existence checks in DataImporter (#200)"
+                    "remove unnecessary directory existence checks in DataImporter by @puk06"
                 ],
                 "Changed": [
-                    "bump version to 2.2.0-beta.1 (#201)"
+                    "bump version to 2.2.0-beta.1 by @puk06"
                 ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.2.0-beta.1"
@@ -381,17 +357,17 @@
             "ReleaseDate": "2026-03-27",
             "ChangeLogs": {
                 "Added": [
-                    "add option to use original folders without copying (#194)",
-                    "show asset path in delete confirmation dialog (#195)",
-                    "add confirmation dialog for copying asset data during import process (#196)"
+                    "add option to use original folders without copying by @puk06",
+                    "show asset path in delete confirmation dialog by @puk06",
+                    "add confirmation dialog for copying asset data during import process by @puk06"
                 ],
                 "Fixed": [
-                    "include prerelease versions in update checks for VersionReleaseExtensions (#193)",
-                    "prevent linkedToOriginal paths from being treated as relative (#197)"
+                    "include prerelease versions in update checks for VersionReleaseExtensions by @puk06",
+                    "prevent linkedToOriginal paths from being treated as relative by @puk06"
                 ],
                 "Changed": [
-                    "update localization strings (#198)",
-                    "bump verison to 2.2.0-beta.0 (#199)"
+                    "update localization strings by @puk06",
+                    "bump verison to 2.2.0-beta.0 by @puk06"
                 ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.2.0-beta.0"
@@ -401,14 +377,14 @@
             "ReleaseDate": "2026-03-27",
             "ChangeLogs": {
                 "Added": [
-                    "add thumbnail import functionality with UI support (#189)"
+                    "add thumbnail import functionality with UI support by @puk06"
                 ],
                 "Fixed": [
-                    "correct AEv1 thumbnail path detection (#188)",
-                    "update thumbnail path handling in DataImporter (#190)"
+                    "correct AEv1 thumbnail path detection by @puk06",
+                    "update thumbnail path handling in DataImporter by @puk06"
                 ],
                 "Changed": [
-                    "bump version to 2.1.0 (#191)"
+                    "bump version to 2.1.0 by @puk06"
                 ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.1.0-stable"
@@ -418,24 +394,24 @@
             "ReleaseDate": "2026-03-27",
             "ChangeLogs": {
                 "Added": [
-                    "add method to retrieve search index by item ID (#171)",
-                    "enhance search functionality in common, supported and implemented avatars overlays (#174)",
-                    "enhance search functionality in resolve temp avatars overlay (#180)",
-                    "add \"Select Visible\" button next to overlay search boxes (#185)"
+                    "add method to retrieve search index by item ID by @puk06",
+                    "enhance search functionality in common, supported and implemented avatars overlays by @puk06",
+                    "enhance search functionality in resolve temp avatars overlay by @puk06",
+                    "add \"Select Visible\" button next to overlay search boxes by @puk06"
                 ],
                 "Fixed": [
-                    "restrict common avatar conversion to clothing only (#170)",
-                    "remove GitHub deployments badge from README files (#175)",
-                    "improve filename sanitization by using HashSet for invalid characters and adding edge trimming (#177)",
-                    "ensure overlays reset state on close and improve visibility handling (#178)",
-                    "improve avatar overlay search matching to be case-insensitive (#181)"
+                    "restrict common avatar conversion to clothing only by @puk06",
+                    "remove GitHub deployments badge from README files by @puk06",
+                    "improve filename sanitization by using HashSet for invalid characters and adding edge trimming by @puk06",
+                    "ensure overlays reset state on close and improve visibility handling by @puk06",
+                    "improve avatar overlay search matching to be case-insensitive by @puk06"
                 ],
                 "Changed": [
-                    "simplify avatar search matching logic in overlays (#179)",
-                    "add semantic versioning guidelines to README (#182)",
-                    "simplify custom category rename loop with LINQ filtering (#183)",
-                    "change ItemTagInfo from record to class (#184)",
-                    "bump version to 2.1.0-beta.0 (#186)"
+                    "simplify avatar search matching logic in overlays by @puk06",
+                    "add semantic versioning guidelines to README by @puk06",
+                    "simplify custom category rename loop with LINQ filtering by @puk06",
+                    "change ItemTagInfo from record to class by @puk06",
+                    "bump version to 2.1.0-beta.0 by @puk06"
                 ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.1.0-beta.0"
@@ -446,11 +422,11 @@
             "ChangeLogs": {
                 "Added": [],
                 "Fixed": [
-                    "handle leading './' in paths for legacy AvatarExplorer data (#164)",
-                    "simplify item path handling in data import process (#165)"
+                    "handle leading './' in paths for legacy AvatarExplorer data by @puk06",
+                    "simplify item path handling in data import process by @puk06"
                 ],
                 "Changed": [
-                    "bump version to 2.0.3 (#166)"
+                    "bump version to 2.0.3 by @puk06"
                 ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.0.3-stable"
@@ -460,13 +436,13 @@
             "ReleaseDate": "2026-03-26",
             "ChangeLogs": {
                 "Added": [
-                    "add Windows-only check for scheme feature (#160)"
+                    "add Windows-only check for scheme feature by @puk06"
                 ],
                 "Fixed": [
-                    "handle non-system item and image paths in V1 data import (#162)"
+                    "handle non-system item and image paths in V1 data import by @puk06"
                 ],
                 "Changed": [
-                    "bump version to 2.0.2 (#163)"
+                    "bump version to 2.0.2 by @puk06"
                 ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.0.2-stable"
@@ -478,8 +454,8 @@
                 "Added": [],
                 "Fixed": [],
                 "Changed": [
-                    "add .NET Runtime license information to THIRD_PARTY_LICENSES.txt (#156)",
-                    "bump version to 2.0.1 (#158)"
+                    "add .NET Runtime license information to THIRD_PARTY_LICENSES.txt by @puk06",
+                    "bump version to 2.0.1 by @puk06"
                 ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.0.1-stable"
@@ -489,17 +465,17 @@
             "ReleaseDate": "2026-03-25",
             "ChangeLogs": {
                 "Added": [
-                    "support releaseUrl from update manifest and use it for update dialog links (#153)"
+                    "support releaseUrl from update manifest and use it for update dialog links by @puk06"
                 ],
                 "Fixed": [
-                    "use TextParser in SearchFilterBuilder to preserve quoted values (#149)",
-                    "make text input take precedence when advanced search is also set (#150)",
-                    "improve backup reliability and error handling (#151)"
+                    "use TextParser in SearchFilterBuilder to preserve quoted values by @puk06",
+                    "make text input take precedence when advanced search is also set by @puk06",
+                    "improve backup reliability and error handling by @puk06"
                 ],
                 "Changed": [
-                    "bump version to 2.0.0 (#152)",
-                    "add version tag usage guidelines to README (#154)",
-                    "switch stable tag suffix from -release to -stable and update readme policy (#155)"
+                    "bump version to 2.0.0 by @puk06",
+                    "add version tag usage guidelines to README by @puk06",
+                    "switch stable tag suffix from -release to -stable and update readme policy by @puk06"
                 ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.0.0-stable"
@@ -510,19 +486,19 @@
             "ChangeLogs": {
                 "Added": [],
                 "Fixed": [
-                    "remove outdated font license information and related credits from THIRD_PARTY_LICENSES.txt (#138)",
-                    "correct null check for confirmation dialog result in asset removal (#140)",
-                    "isolate selected item id per MainWindow overlay to avoid cross-overlay overwrite (#141)",
-                    "await data-copy confirmation flow when applying settings (#142)",
-                    "rename thumbnail key typo and add item DB migration (#143)",
-                    "ensure search index reflects avatar DB changes before refresh (#144)",
-                    "refresh search index after replacing supported avatars (#145)",
-                    "propagate AddItemPaths failure in EditItem (#146)"
+                    "remove outdated font license information and related credits from THIRD_PARTY_LICENSES.txt by @puk06",
+                    "correct null check for confirmation dialog result in asset removal by @puk06",
+                    "isolate selected item id per MainWindow overlay to avoid cross-overlay overwrite by @puk06",
+                    "await data-copy confirmation flow when applying settings by @puk06",
+                    "rename thumbnail key typo and add item DB migration by @puk06",
+                    "ensure search index reflects avatar DB changes before refresh by @puk06",
+                    "refresh search index after replacing supported avatars by @puk06",
+                    "propagate AddItemPaths failure in EditItem by @puk06"
                 ],
                 "Changed": [
-                    "update installation instructions for Windows and non-Windows platforms (#139)",
-                    "reduce importer CPU spikes by throttling copy parallelism (#147)",
-                    "bump version to 2.0.0-beta.16 (#148)"
+                    "update installation instructions for Windows and non-Windows platforms by @puk06",
+                    "reduce importer CPU spikes by throttling copy parallelism by @puk06",
+                    "bump version to 2.0.0-beta.16 by @puk06"
                 ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.0.0-beta.16"
@@ -532,8 +508,12 @@
             "ReleaseDate": "2026-03-24",
             "ChangeLogs": {
                 "Added": [],
-                "Fixed": [],
-                "Changed": []
+                "Fixed": [
+                    "remove unnecessary privileges override and clean up desktop icon task flags by @puk06"
+                ],
+                "Changed": [
+                    "bump version to 2.0.0-beta.15 by @puk06"
+                ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.0.0-beta.15"
         }
