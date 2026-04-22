@@ -26,10 +26,19 @@ function classify(lines) {
         Changed: []
     };
 
+    function capitalizeFirst(text) {
+        if (!text) {
+            return text;
+        }
+
+        return text.charAt(0).toUpperCase() + text.slice(1);
+    }
+
     for (let msg of lines) {
         const normalized = msg.toLowerCase();
         
         msg = msg.replace(/^\w+(\(.+\))?:\s*/, "");
+        msg = capitalizeFirst(msg);
 
         if (normalized.startsWith("feat")) {
             result.Added.push(msg);
@@ -93,8 +102,8 @@ async function main() {
 
     const result = [];
 
-    for (let i = 0; i < sorted.length; i++) {
-        const current = sorted[i];
+    for (const element of sorted) {
+        const current = element;
         const whatsChangedLines = extractWhatsChangedLines(current.body);
         const changeLogs = classify(whatsChangedLines);
 
