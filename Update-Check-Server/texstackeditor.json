@@ -1,6 +1,6 @@
 {
-    "LatestVersion": "1.0.5",
+    "LatestVersion": "1.1.0",
     "ChangeLog": [
-        "LLC V1と一緒に使ったときにフリーズするバグの修正"
+        "テクスチャ手動出力機能の追加"
     ]
 }
