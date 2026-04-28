@@ -1,6 +1,7 @@
 {
-    "LatestVersion": "v1.0.0",
+    "LatestVersion": "v1.0.1",
     "ChangeLog": [
-        "初期リリース"
+        "色んな機能の修正",
+        "Banchoで毎回Credentialがリセットされるバグの修正"
     ]
 }
