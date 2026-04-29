@@ -1,6 +1,35 @@
 {
     "Releases": [
         {
+            "Version": "2.5.0-beta.1",
+            "ReleaseDate": "2026-04-29",
+            "ChangeLogs": {
+                "Added": [
+                    "Add fatal error overlay and initialization error handling by @puk06",
+                    "Add startup loading overlay and improve settings overlay behavior by @puk06",
+                    "Add validation for common avatars in non-clothing items by @puk06"
+                ],
+                "Fixed": [
+                    "Update button styles to set foreground colors by @puk06",
+                    "Update search filter handling to use ToString method for cache comparison by @puk06",
+                    "Remove corrupted item path check when removing items by @puk06",
+                    "Rename file `JsonLoader` to `JsonFileManager` by @puk06",
+                    "Switch to IWritableArchive to ensure proper disposal by @puk06"
+                ],
+                "Changed": [
+                    "Update CONTRIBUTING.md to clarify UI design challenges and contribution process by @puk06",
+                    "Add JsonFileManager to manage json file by @puk06",
+                    "Introduce JsonManager for centralized JSON serialization and deserialization by @puk06",
+                    "Implement SettingsManager for centralized settings management and refactor related components by @puk06",
+                    "Consolidate database management into a single DatabaseManager class and remove obsolete managers by @puk06",
+                    "Optimize file categorization logic and improve performance of file processing by @puk06",
+                    "Remove unused using directives from various services by @puk06",
+                    "Bump version to 2.5.0-beta.1 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.5.0-beta.1"
+        },
+        {
             "Version": "2.5.0-beta.0",
             "ReleaseDate": "2026-04-21",
             "ChangeLogs": {
@@ -502,20 +531,6 @@
                 ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.0.0-beta.16"
-        },
-        {
-            "Version": "2.0.0-beta.15",
-            "ReleaseDate": "2026-03-24",
-            "ChangeLogs": {
-                "Added": [],
-                "Fixed": [
-                    "Remove unnecessary privileges override and clean up desktop icon task flags by @puk06"
-                ],
-                "Changed": [
-                    "Bump version to 2.0.0-beta.15 by @puk06"
-                ]
-            },
-            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.0.0-beta.15"
         }
     ]
 }
