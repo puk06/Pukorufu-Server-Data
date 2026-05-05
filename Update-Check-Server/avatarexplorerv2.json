@@ -1,6 +1,36 @@
 {
     "Releases": [
         {
+            "Version": "2.5.0-beta.3",
+            "ReleaseDate": "2026-05-05",
+            "ChangeLogs": {
+                "Added": [
+                    "Add Item Details panel and localization support for item details by @puk06"
+                ],
+                "Fixed": [
+                    "Reduce API cooldown duration from 5 seconds to 2 seconds by @puk06"
+                ],
+                "Changed": [
+                    "Implement CacheManager class and update PageManager and ScrollManager by @puk06",
+                    "Bump version to 2.5.0-beta.3 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.5.0-beta.3"
+        },
+        {
+            "Version": "2.5.0-beta.2",
+            "ReleaseDate": "2026-04-30",
+            "ChangeLogs": {
+                "Added": [],
+                "Fixed": [],
+                "Changed": [
+                    "Remove application argument handling from App class and implement in MainWindow by @puk06",
+                    "Bump version to 2.5.0-beta.2 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.5.0-beta.2"
+        },
+        {
             "Version": "2.5.0-beta.1",
             "ReleaseDate": "2026-04-29",
             "ChangeLogs": {
@@ -488,49 +518,6 @@
                 ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.0.1-stable"
-        },
-        {
-            "Version": "2.0.0",
-            "ReleaseDate": "2026-03-25",
-            "ChangeLogs": {
-                "Added": [
-                    "Support releaseUrl from update manifest and use it for update dialog links by @puk06"
-                ],
-                "Fixed": [
-                    "Use TextParser in SearchFilterBuilder to preserve quoted values by @puk06",
-                    "Make text input take precedence when advanced search is also set by @puk06",
-                    "Improve backup reliability and error handling by @puk06"
-                ],
-                "Changed": [
-                    "Bump version to 2.0.0 by @puk06",
-                    "Add version tag usage guidelines to README by @puk06",
-                    "Switch stable tag suffix from -release to -stable and update readme policy by @puk06"
-                ]
-            },
-            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.0.0-stable"
-        },
-        {
-            "Version": "2.0.0-beta.16",
-            "ReleaseDate": "2026-03-25",
-            "ChangeLogs": {
-                "Added": [],
-                "Fixed": [
-                    "Remove outdated font license information and related credits from THIRD_PARTY_LICENSES.txt by @puk06",
-                    "Correct null check for confirmation dialog result in asset removal by @puk06",
-                    "Isolate selected item id per MainWindow overlay to avoid cross-overlay overwrite by @puk06",
-                    "Await data-copy confirmation flow when applying settings by @puk06",
-                    "Rename thumbnail key typo and add item DB migration by @puk06",
-                    "Ensure search index reflects avatar DB changes before refresh by @puk06",
-                    "Refresh search index after replacing supported avatars by @puk06",
-                    "Propagate AddItemPaths failure in EditItem by @puk06"
-                ],
-                "Changed": [
-                    "Update installation instructions for Windows and non-Windows platforms by @puk06",
-                    "Reduce importer CPU spikes by throttling copy parallelism by @puk06",
-                    "Bump version to 2.0.0-beta.16 by @puk06"
-                ]
-            },
-            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.0.0-beta.16"
         }
     ]
 }
