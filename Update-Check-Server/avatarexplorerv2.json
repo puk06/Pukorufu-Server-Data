@@ -1,6 +1,32 @@
 {
     "Releases": [
         {
+            "Version": "2.5.0-beta.4",
+            "ReleaseDate": "2026-05-08",
+            "ChangeLogs": {
+                "Added": [
+                    "Implement selection change event and update item details panel rendering by @puk06",
+                    "Enhance item icon rendering with dynamic sizing and border adjustments by @puk06",
+                    "Set tooltip show delay for item buttons to improve user experience by @puk06",
+                    "Add cancelable bulk thumbnail fetch overlay by @puk06"
+                ],
+                "Fixed": [
+                    "Add JsonIgnore attribute to ItemsView property to prevent serialization by @puk06",
+                    "Update error messages version release retrieval methods by @puk06"
+                ],
+                "Changed": [
+                    "Split AvatarExplorerApp into partial files by responsibility by @puk06",
+                    "Replace List with ImmutableArray for better performance and immutability in aggregators by @puk06",
+                    "Simplify version range initialization and update retrieval logic in VersionReleaseExtensions by @puk06",
+                    "Add custom Copilot agents for development workflow by @puk06",
+                    "Add lowercase subject formatting rules by @puk06",
+                    "Move archive password request to external models by @puk06",
+                    "Bump version to 2.5.0-beta.4 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.5.0-beta.4"
+        },
+        {
             "Version": "2.5.0-beta.3",
             "ReleaseDate": "2026-05-05",
             "ChangeLogs": {
@@ -505,19 +531,6 @@
                 ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.0.2-stable"
-        },
-        {
-            "Version": "2.0.1",
-            "ReleaseDate": "2026-03-25",
-            "ChangeLogs": {
-                "Added": [],
-                "Fixed": [],
-                "Changed": [
-                    "Add .NET Runtime license information to THIRD_PARTY_LICENSES.txt by @puk06",
-                    "Bump version to 2.0.1 by @puk06"
-                ]
-            },
-            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.0.1-stable"
         }
     ]
 }
