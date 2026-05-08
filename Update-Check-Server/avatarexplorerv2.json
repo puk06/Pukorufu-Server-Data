@@ -1,6 +1,20 @@
 {
     "Releases": [
         {
+            "Version": "2.5.0-beta.5",
+            "ReleaseDate": "2026-05-08",
+            "ChangeLogs": {
+                "Added": [
+                    "Add folder step before file list after item selection by @puk06"
+                ],
+                "Fixed": [],
+                "Changed": [
+                    "Bump version to 2.5.0-beta.5 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.5.0-beta.5"
+        },
+        {
             "Version": "2.5.0-beta.4",
             "ReleaseDate": "2026-05-08",
             "ChangeLogs": {
@@ -515,22 +529,6 @@
                 ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.0.3-stable"
-        },
-        {
-            "Version": "2.0.2",
-            "ReleaseDate": "2026-03-26",
-            "ChangeLogs": {
-                "Added": [
-                    "Add Windows-only check for scheme feature by @puk06"
-                ],
-                "Fixed": [
-                    "Handle non-system item and image paths in V1 data import by @puk06"
-                ],
-                "Changed": [
-                    "Bump version to 2.0.2 by @puk06"
-                ]
-            },
-            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.0.2-stable"
         }
     ]
 }
