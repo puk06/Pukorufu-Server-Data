@@ -15,8 +15,27 @@ const api = axios.create({
 });
 
 async function getAllReleases() {
-    const res = await api.get(`/repos/${OWNER}/${REPO}/releases`);
-    return res.data;
+    const allReleases = [];
+    let page = 1;
+    let hasMore = true;
+
+    while (hasMore) {
+        const res = await api.get(`/repos/${OWNER}/${REPO}/releases`, {
+            params: {
+                per_page: 100,
+                page: page
+            }
+        });
+
+        if (res.data.length === 0) {
+            hasMore = false;
+        } else {
+            allReleases.push(...res.data);
+            page++;
+        }
+    }
+
+    return allReleases;
 }
 
 function classify(lines) {

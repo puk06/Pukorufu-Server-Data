@@ -529,6 +529,197 @@
                 ]
             },
             "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.0.3-stable"
+        },
+        {
+            "Version": "2.0.2",
+            "ReleaseDate": "2026-03-26",
+            "ChangeLogs": {
+                "Added": [
+                    "Add Windows-only check for scheme feature by @puk06"
+                ],
+                "Fixed": [
+                    "Handle non-system item and image paths in V1 data import by @puk06"
+                ],
+                "Changed": [
+                    "Bump version to 2.0.2 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.0.2-stable"
+        },
+        {
+            "Version": "2.0.1",
+            "ReleaseDate": "2026-03-25",
+            "ChangeLogs": {
+                "Added": [],
+                "Fixed": [],
+                "Changed": [
+                    "Add .NET Runtime license information to THIRD_PARTY_LICENSES.txt by @puk06",
+                    "Bump version to 2.0.1 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.0.1-stable"
+        },
+        {
+            "Version": "2.0.0",
+            "ReleaseDate": "2026-03-25",
+            "ChangeLogs": {
+                "Added": [
+                    "Support releaseUrl from update manifest and use it for update dialog links by @puk06"
+                ],
+                "Fixed": [
+                    "Use TextParser in SearchFilterBuilder to preserve quoted values by @puk06",
+                    "Make text input take precedence when advanced search is also set by @puk06",
+                    "Improve backup reliability and error handling by @puk06"
+                ],
+                "Changed": [
+                    "Bump version to 2.0.0 by @puk06",
+                    "Add version tag usage guidelines to README by @puk06",
+                    "Switch stable tag suffix from -release to -stable and update readme policy by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.0.0-stable"
+        },
+        {
+            "Version": "2.0.0-beta.16",
+            "ReleaseDate": "2026-03-25",
+            "ChangeLogs": {
+                "Added": [],
+                "Fixed": [
+                    "Remove outdated font license information and related credits from THIRD_PARTY_LICENSES.txt by @puk06",
+                    "Correct null check for confirmation dialog result in asset removal by @puk06",
+                    "Isolate selected item id per MainWindow overlay to avoid cross-overlay overwrite by @puk06",
+                    "Await data-copy confirmation flow when applying settings by @puk06",
+                    "Rename thumbnail key typo and add item DB migration by @puk06",
+                    "Ensure search index reflects avatar DB changes before refresh by @puk06",
+                    "Refresh search index after replacing supported avatars by @puk06",
+                    "Propagate AddItemPaths failure in EditItem by @puk06"
+                ],
+                "Changed": [
+                    "Update installation instructions for Windows and non-Windows platforms by @puk06",
+                    "Reduce importer CPU spikes by throttling copy parallelism by @puk06",
+                    "Bump version to 2.0.0-beta.16 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.0.0-beta.16"
+        },
+        {
+            "Version": "2.0.0-beta.15",
+            "ReleaseDate": "2026-03-24",
+            "ChangeLogs": {
+                "Added": [],
+                "Fixed": [
+                    "Remove unnecessary privileges override and clean up desktop icon task flags by @puk06"
+                ],
+                "Changed": [
+                    "Bump version to 2.0.0-beta.15 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.0.0-beta.15"
+        },
+        {
+            "Version": "2.0.0-beta.14",
+            "ReleaseDate": "2026-03-24",
+            "ChangeLogs": {
+                "Added": [
+                    "Add bulk import preset by @puk06",
+                    "Add confirmation dialog for adding files to existing item by @puk06",
+                    "Add temp avatar by @puk06",
+                    "Return generated ID from Add methods by @puk06",
+                    "Map konoasset category to item type by @puk06",
+                    "Prioritize main avatar display over temporary avatar by @puk06",
+                    "Add tooltip for temp avatar by @puk06",
+                    "Implement custom category name editing by @puk06",
+                    "Add Font category to file types by @puk06",
+                    "Implement abstract classes for KonoAsset items and databases, add support for other assets by @puk06",
+                    "Add language code support for Booth links and update localization files by @puk06",
+                    "Add reset functionality for bulk import preset database and update localization by @puk06",
+                    "Add option to remove asset data when deleting an item by @puk06",
+                    "Add About section to Settings screen by @puk06",
+                    "Implement search exclusion with tilde and refactor search filter structure by @puk06",
+                    "Redesign advanced search panel to vertical layout and make OR toggles mutually exclusive by @puk06",
+                    "Add option to treat empty supported avatars as none in advanced search by @puk06",
+                    "Add negation hint for advanced search functionality in localization files by @puk06",
+                    "Add Inno Setup for building Windows installer and create windows.iss script by @puk06"
+                ],
+                "Fixed": [
+                    "Handle nullable initialization in data import and settings loading by @puk06",
+                    "Update localization keys from Type to Category in UI by @puk06",
+                    "Remove deprecated macOS runtime configuration from release workflow by @puk06",
+                    "Item update dates not freshing by @puk06",
+                    "Ensure UpdatedDate is updated in all item update paths by @puk06",
+                    "Ensure window comes to front when Activate is called by @puk06",
+                    "Localization fix for RemoveItem context menu by @puk06",
+                    "Reset text content when TextDialogOverlay closes by @puk06",
+                    "Ensure item is fully removed from all references on deletion by @puk06",
+                    "Ensure UpdatedDate is updated when title is changed by @puk06",
+                    "Include all releases in GetPendingUpdates regardless of prerelease status by @puk06",
+                    "Progress bar does not disappear after data import by @puk06",
+                    "Prevent original path deletion when skipping scheme check on path change by @puk06",
+                    "Resolve avatar category not being recognized correctly when importing from konoasset by @puk06",
+                    "Localization for Edit Implemented Avatars overlay and update dialog by @puk06",
+                    "Remove extension from thumbnail filenames by @puk06",
+                    "Update target framework from net10.0 to net9.0 in project file by @puk06",
+                    "Correct default category in custom category item editing by @puk06",
+                    "Update thumbnail filename mapping logic in data importer by @puk06",
+                    "Add missing SaveItemDatabase calls and relocate save timing by @puk06",
+                    "Add missing UpdateSearchIndex calls in remove and resolve operations by @puk06",
+                    "Add UpdateSearchIndex call after importing items by @puk06",
+                    "Replace string.Join with string.Format for error message consistency by @puk06",
+                    "Clear item search index before updating to ensure accurate results by @puk06",
+                    "Handle thumbnail fetch failure with appropriate error message by @puk06",
+                    "Correct translation of \"Category\" to \"カテゴリ\" in advanced search by @puk06",
+                    "Skip existing item lookup when BoothId is unknown (-1) by @puk06",
+                    "Simplify desktop icon creation logic in installer script by @puk06",
+                    "Enable desktop icon creation by default in installer script by @puk06",
+                    "Update software icons for improved visual consistency by @puk06",
+                    "Remove deprecated profile icon and implement dynamic loading from GitHub API by @puk06",
+                    "Enforce per-user installation on Windows by @puk06"
+                ],
+                "Changed": [
+                    "Fix duplicate changelog in release workflow by @puk06",
+                    "Bump version to v2.0.0-beta.0 by @puk06",
+                    "Add support for additional runtime environments in release workflow by @puk06",
+                    "Bump version to v2.0.0-beta.1 by @puk06",
+                    "Update README to clarify differences with KonoAsset and improve installation instructions by @puk06",
+                    "Database item and manager for improved code reuse by @puk06",
+                    "Rename methods to follow README naming conventions by @puk06",
+                    "Bump version to 2.0.0-beta.2 by @puk06",
+                    "Rename field in InitialSetupOverlay by @puk06",
+                    "Rename methods and variables by @puk06",
+                    "Refactor data importer and exporter by @puk06",
+                    "Prevent downcast with immutable array by @puk06",
+                    "Remove unused using directives by @puk06",
+                    "Bump version to 2.0.0-beta.3 by @puk06",
+                    "Unify yes/no result checks to use != YesNoResult.Yes by @puk06",
+                    "Initializing and database manager by @puk06",
+                    "Enforce single instance for Core by @puk06",
+                    "Update readme by @puk06",
+                    "Bump version to 2.0.0-beta.4 by @puk06",
+                    "Bump version to 2.0.0-beta.5 by @puk06",
+                    "Bump version to 2.0.0-beta.6 by @puk06",
+                    "Add CI check to verify LocalizationKeys.g.cs is up to date by @Copilot",
+                    "Update pull request guidelines and commit message format by @puk06",
+                    "Add AI usage guidelines for contributions by @puk06",
+                    "Update AI usage guidelines for contributions by @puk06",
+                    "Improve author aggregation by using distinct and ordering authors by @puk06",
+                    "Fix TempAvatar localization key categorization by @puk06",
+                    "Auto-detect advanced search instead of manual toggle by @puk06",
+                    "Bump version to 2.0.0-beta.7 by @puk06",
+                    "Remove author thumbnail references and related properties from models and UI by @puk06",
+                    "Bump version to 2.0.0-beta.8 by @puk06",
+                    "Bump version to 2.0.0-beta.9 by @puk06",
+                    "Bump version to 2.0.0-beta.10 by @puk06",
+                    "Bump version to 2.0.0-beta.11 by @puk06",
+                    "Bump version to 2.0.0-beta.12 by @puk06",
+                    "Migrate target framework from .NET 9.0 to 10.0 by @puk06",
+                    "Add English README and development environment details by @puk06",
+                    "Move locale source files to Core and update key generation paths by @puk06",
+                    "Bump version to 2.0.0-beta.13 by @puk06",
+                    "Add release notices for removed pre-release versions by @puk06",
+                    "Bump version to 2.0.0-beta.14 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.0.0-beta.14"
         }
     ]
 }
