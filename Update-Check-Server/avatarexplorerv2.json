@@ -1,6 +1,31 @@
 {
     "Releases": [
         {
+            "Version": "2.5.0",
+            "ReleaseDate": "2026-05-09",
+            "ChangeLogs": {
+                "Added": [],
+                "Fixed": [
+                    "Migrate item type values after enum reindex by @puk06",
+                    "Preserve item category selection in add item overlay by @puk06",
+                    "Change ItemType to int and adjust migration logic in DataImporter by @puk06",
+                    "Set initial language for proper title initialization by @puk06",
+                    "Handle missing thumbnail by displaying default file icon by @puk06",
+                    "Mark current migration version when saving item database by @puk06"
+                ],
+                "Changed": [
+                    "Change Instance property to use private static instance by @puk06",
+                    "Centralize id lookup with getbyid helper by @puk06",
+                    "Remove AuthorId and update references to use Shop.Id by @puk06",
+                    "Reorganize app service methods without behavior changes by @puk06",
+                    "Introduce non-selectable item type attribute by @puk06",
+                    "Normalize path helper names and thumbnail folder constants by @puk06",
+                    "Bump version to 2.5.0 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.5.0-stable"
+        },
+        {
             "Version": "2.5.0-beta.5",
             "ReleaseDate": "2026-05-08",
             "ChangeLogs": {
