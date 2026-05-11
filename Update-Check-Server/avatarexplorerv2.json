@@ -1,6 +1,22 @@
 {
     "Releases": [
         {
+            "Version": "2.5.1-beta.0",
+            "ReleaseDate": "2026-05-11",
+            "ChangeLogs": {
+                "Added": [],
+                "Fixed": [
+                    "Allow clearing memo by accepting empty input by @puk06",
+                    "Update SharpCompress to version 0.48.0 by @puk06",
+                    "Handle image loading failures safely by @puk06"
+                ],
+                "Changed": [
+                    "Bump version to 2.5.1-beta.0 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.5.1-beta.0"
+        },
+        {
             "Version": "2.5.0",
             "ReleaseDate": "2026-05-09",
             "ChangeLogs": {
