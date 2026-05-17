@@ -1,6 +1,22 @@
 {
     "Releases": [
         {
+            "Version": "2.5.2",
+            "ReleaseDate": "2026-05-17",
+            "ChangeLogs": {
+                "Added": [],
+                "Fixed": [
+                    "Add booth subcategory mappings for 3d hair and shoes by @puk06",
+                    "Close loading overlay before showing initial setup overlay by @puk06"
+                ],
+                "Changed": [
+                    "Extract selection handlers into internal helper methods by @puk06",
+                    "Bump version to 2.5.2 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.5.2-stable"
+        },
+        {
             "Version": "2.5.1",
             "ReleaseDate": "2026-05-13",
             "ChangeLogs": {
