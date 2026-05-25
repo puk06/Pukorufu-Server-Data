@@ -1,6 +1,24 @@
 {
     "Releases": [
         {
+            "Version": "2.6.0-beta.0",
+            "ReleaseDate": "2026-05-25",
+            "ChangeLogs": {
+                "Added": [
+                    "Add pdf viewer overlay and context menu action by @puk06",
+                    "Add es/fr/ko/zh locales by @puk06",
+                    "Add fade-out for startup loading overlay by @puk06"
+                ],
+                "Fixed": [
+                    "Ensure context menu uses localized font by @puk06"
+                ],
+                "Changed": [
+                    "Bump version to 2.6.0-beta.0 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.6.0-beta.0"
+        },
+        {
             "Version": "2.5.2",
             "ReleaseDate": "2026-05-17",
             "ChangeLogs": {
