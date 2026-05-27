@@ -782,6 +782,24 @@
                     "unity": "2022.3",
                     "description": "Non-destructive Color Changer For Unity!",
                     "url": "https://github.com/puk06/Color-Changer-For-Unity/releases/download/v2.0.7/net.puk06.color-changer-v2.0.7.zip?"
+                },
+                "2.0.8": {
+                    "name": "net.puk06.color-changer",
+                    "displayName": "Color Changer For Unity",
+                    "version": "2.0.8",
+                    "vpmDependencies": {
+                        "nadena.dev.ndmf": ">=1.5.0",
+                        "com.vrchat.base": ">=3.5.0",
+                        "net.puk06.texture-replacer": ">=1.0.1"
+                    },
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "Non-destructive Color Changer For Unity!",
+                    "url": "https://github.com/puk06/Color-Changer-For-Unity/releases/download/v2.0.8/net.puk06.color-changer-v2.0.8.zip?"
                 }
             }
         },
@@ -922,6 +940,23 @@
                     "unity": "2022.3",
                     "description": "An advanced layer-based texture editing and baking tool for VRChat avatars in Unity.",
                     "url": "https://github.com/puk06/TexStackEditor/releases/download/v1.1.1/net.puk06.tex-stack-editor-v1.1.1.zip?"
+                },
+                "1.1.2": {
+                    "name": "net.puk06.tex-stack-editor",
+                    "displayName": "TexStackEditor",
+                    "version": "1.1.2",
+                    "vpmDependencies": {
+                        "nadena.dev.ndmf": ">=1.5.0",
+                        "com.vrchat.base": ">=3.5.0"
+                    },
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "An advanced layer-based texture editing and baking tool for VRChat avatars in Unity.",
+                    "url": "https://github.com/puk06/TexStackEditor/releases/download/v1.1.2/net.puk06.tex-stack-editor-v1.1.2.zip?"
                 }
             }
         },
@@ -1154,6 +1189,23 @@
                     "unity": "2022.3",
                     "description": "Puko's Non-Destructive Texture Replacer",
                     "url": "https://github.com/puk06/Texture-Replacer/releases/download/v2.0.4/net.puk06.texture-replacer-v2.0.4.zip?"
+                },
+                "2.0.5": {
+                    "name": "net.puk06.texture-replacer",
+                    "displayName": "Puko's Texture Replacer",
+                    "version": "2.0.5",
+                    "vpmDependencies": {
+                        "nadena.dev.ndmf": ">=1.5.0",
+                        "com.vrchat.base": ">=3.5.0"
+                    },
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "Puko's Non-Destructive Texture Replacer",
+                    "url": "https://github.com/puk06/Texture-Replacer/releases/download/v2.0.5/net.puk06.texture-replacer-v2.0.5.zip?"
                 }
             }
         },
