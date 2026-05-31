@@ -1401,6 +1401,23 @@
                     "unity": "2022.3",
                     "description": "A abstract component for non-destructively synchronizing a material's property with other materials.",
                     "url": "https://github.com/puk06/MaterialPropertySyncCore/releases/download/v1.0.3/net.puk06.material-property-sync-core-v1.0.3.zip?"
+                },
+                "1.1.0": {
+                    "name": "net.puk06.material-property-sync-core",
+                    "displayName": "Material Property Sync Core",
+                    "version": "1.1.0",
+                    "vpmDependencies": {
+                        "nadena.dev.ndmf": ">=1.5.0",
+                        "com.vrchat.base": ">=3.5.0"
+                    },
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "A abstract component for non-destructively synchronizing a material's property with other materials.",
+                    "url": "https://github.com/puk06/MaterialPropertySyncCore/releases/download/v1.1.0/net.puk06.material-property-sync-core-v1.1.0.zip?"
                 }
             }
         }
