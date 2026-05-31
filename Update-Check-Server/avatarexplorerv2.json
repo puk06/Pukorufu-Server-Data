@@ -1,6 +1,28 @@
 {
     "Releases": [
         {
+            "Version": "2.6.0",
+            "ReleaseDate": "2026-06-01",
+            "ChangeLogs": {
+                "Added": [
+                    "Add copy item info context menu action by @puk06",
+                    "Add disabled title entry to item context menu by @puk06"
+                ],
+                "Fixed": [
+                    "Allow selecting common base avatar when manually set to clothing by @puk06",
+                    "Keep path textbox caret at end after updating path by @puk06",
+                    "Update booth link message to indicate absence of link by @puk06",
+                    "Adjust height of PDF viewer overlay to 720 by @puk06",
+                    "Update Avalonia packages to version 12.0.4 by @puk06"
+                ],
+                "Changed": [
+                    "Update archive dependencies and migrate filesystem tar handling to async apis by @puk06",
+                    "Bump version to 2.6.0 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.6.0-stable"
+        },
+        {
             "Version": "2.6.0-beta.1",
             "ReleaseDate": "2026-05-27",
             "ChangeLogs": {
