@@ -3,6 +3,7 @@
     "ChangeLog": [
         "HSVの範囲の変更",
         "右クリックメニュー内の Layer Stack (Parent) から、直接Main Textureをセットできるように変更",
+        "レイヤ＝合成モードの追加",
         "プレビュー周りの修正"
     ]
 }
