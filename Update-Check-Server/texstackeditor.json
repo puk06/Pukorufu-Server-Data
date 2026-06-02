@@ -1,6 +1,8 @@
 {
-    "LatestVersion": "1.1.2",
+    "LatestVersion": "1.2.0",
     "ChangeLog": [
+        "HSVの範囲の変更",
+        "右クリックメニュー内の Layer Stack (Parent) から、直接Main Textureをセットできるように変更",
         "プレビュー周りの修正"
     ]
 }
