@@ -1490,7 +1490,7 @@
                 "2.0.7": {
                     "name": "net.puk06.texture-replacer",
                     "displayName": "Puko's Texture Replacer",
-                    "version": "2.0.6",
+                    "version": "2.0.7",
                     "vpmDependencies": {
                         "nadena.dev.ndmf": ">=1.5.0",
                         "com.vrchat.base": ">=3.5.0"
