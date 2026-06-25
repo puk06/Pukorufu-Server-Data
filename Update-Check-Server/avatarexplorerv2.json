@@ -1,6 +1,21 @@
 {
     "Releases": [
         {
+            "Version": "2.7.0-beta.2",
+            "ReleaseDate": "2026-06-25",
+            "ChangeLogs": {
+                "Added": [],
+                "Fixed": [
+                    "Simplify administrator mode warning text by removing unnecessary complexity by @puk06",
+                    "Ensure item paths are updated when added or edited by @puk06"
+                ],
+                "Changed": [
+                    "Bump version to 2.7.0-beta.2 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.7.0-beta.2"
+        },
+        {
             "Version": "2.7.0-beta.1",
             "ReleaseDate": "2026-06-25",
             "ChangeLogs": {
