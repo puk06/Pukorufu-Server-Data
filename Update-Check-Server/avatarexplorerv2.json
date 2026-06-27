@@ -1,6 +1,38 @@
 {
     "Releases": [
         {
+            "Version": "2.7.0-beta.4",
+            "ReleaseDate": "2026-06-27",
+            "ChangeLogs": {
+                "Added": [
+                    "Implement avatar data integrity check during backup restore by @puk06"
+                ],
+                "Fixed": [],
+                "Changed": [
+                    "Bump version to 2.7.0-beta.4 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.7.0-beta.4"
+        },
+        {
+            "Version": "2.7.0-beta.3",
+            "ReleaseDate": "2026-06-27",
+            "ChangeLogs": {
+                "Added": [],
+                "Fixed": [
+                    "Incorrect file path in database migration restore by @puk06",
+                    "Ensure default paths for all items exist by @puk06",
+                    "Implement pre-condition validation for item type migration by @puk06"
+                ],
+                "Changed": [
+                    "Optimize DB data handling by adopting immutable arrays by @puk06",
+                    "Organize right-click menu items by @puk06",
+                    "Bump version to 2.7.0-beta.3 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.7.0-beta.3"
+        },
+        {
             "Version": "2.7.0-beta.2",
             "ReleaseDate": "2026-06-25",
             "ChangeLogs": {
