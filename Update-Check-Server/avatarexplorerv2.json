@@ -1,6 +1,22 @@
 {
     "Releases": [
         {
+            "Version": "2.7.0-beta.5",
+            "ReleaseDate": "2026-06-28",
+            "ChangeLogs": {
+                "Added": [
+                    "Implement database autofix by @puk06"
+                ],
+                "Fixed": [
+                    "Remove revert migration processing by @puk06"
+                ],
+                "Changed": [
+                    "Bump version to 2.7.0-beta.5 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.7.0-beta.5"
+        },
+        {
             "Version": "2.7.0-beta.4",
             "ReleaseDate": "2026-06-27",
             "ChangeLogs": {
