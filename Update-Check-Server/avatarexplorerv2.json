@@ -1,6 +1,27 @@
 {
     "Releases": [
         {
+            "Version": "2.7.0-beta.7",
+            "ReleaseDate": "2026-08-10",
+            "ChangeLogs": {
+                "Added": [
+                    "Add implemented sort as independent setting by @puk06"
+                ],
+                "Fixed": [
+                    "Update scheme status text on language change by @puk06",
+                    "Update hover thumbnail visibility condition to include avatars by @puk06",
+                    "Add backup execution before database reset operations by @puk06"
+                ],
+                "Changed": [
+                    "Normalize whitespace in csproj files by @puk06",
+                    "Remove cache warmup status from title bar by @puk06",
+                    "Clarify backup interval parameter naming and move conversion to setter by @puk06",
+                    "Bump version to 2.7.0-beta.7 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.7.0-beta.7"
+        },
+        {
             "Version": "2.7.0-beta.6",
             "ReleaseDate": "2026-08-09",
             "ChangeLogs": {
