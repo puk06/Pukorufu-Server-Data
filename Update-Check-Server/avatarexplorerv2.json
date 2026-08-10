@@ -1,6 +1,22 @@
 {
     "Releases": [
         {
+            "Version": "2.7.0-beta.8",
+            "ReleaseDate": "2026-08-10",
+            "ChangeLogs": {
+                "Added": [
+                    "Add tooltip to unitypackage selection ComboBox by @puk06"
+                ],
+                "Fixed": [],
+                "Changed": [
+                    "Embed migration version in database files by @puk06",
+                    "Consolidate KonoAsset database classes into a generic KonoAssetDatabase by @puk06",
+                    "Bump version to 2.7.0-beta.8 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.7.0-beta.8"
+        },
+        {
             "Version": "2.7.0-beta.7",
             "ReleaseDate": "2026-08-10",
             "ChangeLogs": {
