@@ -1,6 +1,25 @@
 {
     "Releases": [
         {
+            "Version": "2.7.0-beta.12",
+            "ReleaseDate": "2026-08-12",
+            "ChangeLogs": {
+                "Added": [
+                    "Add booth note to settings overlay by @puk06",
+                    "Add texture preview by @puk06",
+                    "Warn when scripts found in unitypackage during import by @puk06"
+                ],
+                "Fixed": [
+                    "Pass isFile false when adding folders via context menu by @puk06",
+                    "Clarify FileCategory.Material label applies to unitypackage files by @puk06"
+                ],
+                "Changed": [
+                    "Bump version to 2.7.0-beta.12 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.7.0-beta.12"
+        },
+        {
             "Version": "2.7.0-beta.11",
             "ReleaseDate": "2026-08-12",
             "ChangeLogs": {
