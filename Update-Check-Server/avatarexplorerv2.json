@@ -1,6 +1,31 @@
 {
     "Releases": [
         {
+            "Version": "2.7.0-beta.11",
+            "ReleaseDate": "2026-08-12",
+            "ChangeLogs": {
+                "Added": [
+                    "Add existing tag editor by @puk06",
+                    "Add tag search filter to tag editors by @puk06"
+                ],
+                "Fixed": [
+                    "Ensure avatars are distinct when updating by @puk06",
+                    "Remove duplicate item paths in ItemEditor by @puk06",
+                    "Avoid logging full URL in download failure by @puk06",
+                    "Handle download cancellation properly in Downloader by @puk06",
+                    "Reset RightPageInfo on initial screen load by @puk06",
+                    "Improve path segment handling in search results by @puk06",
+                    "Restore page and scroll position when navigating from search screen by @puk06",
+                    "Prevent invalid tag selection when opening editor with no tags by @puk06",
+                    "Reset tagindex to -1 after removing in TagEditor by @puk06"
+                ],
+                "Changed": [
+                    "Bump version to 2.7.0-beta.11 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.7.0-beta.11"
+        },
+        {
             "Version": "2.7.0-beta.10",
             "ReleaseDate": "2026-08-11",
             "ChangeLogs": {
