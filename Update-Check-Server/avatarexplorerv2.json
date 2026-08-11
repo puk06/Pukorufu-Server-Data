@@ -1,6 +1,46 @@
 {
     "Releases": [
         {
+            "Version": "2.7.0-beta.9",
+            "ReleaseDate": "2026-08-11",
+            "ChangeLogs": {
+                "Added": [
+                    "Add Linux support for URL scheme registration by @puk06",
+                    "Consolidate database reset into single overlay with separate TempAvatar option by @puk06",
+                    "Add remove folder option to item folder context menu by @puk06",
+                    "Restore search state when undoing from selected item by @puk06",
+                    "Add variation update check by @puk06",
+                    "Add \"nothing found\" message when no main items by @puk06",
+                    "Add unselect visible button by @puk06"
+                ],
+                "Fixed": [
+                    "Support temp avatar and common avatar resolution in AvatarPrefix path formatting by @puk06",
+                    "Mask username and extract application name from scheme registration path by @puk06",
+                    "Increase settings overlay width from 900 to 1000 by @puk06",
+                    "Remove unused search state management by @puk06",
+                    "Improve common avatar group management UX by @puk06",
+                    "Restore migration version files during backup restoration by @puk06",
+                    "Remove redundant restore confirmation dialog by @puk06",
+                    "Accept string input for int settings to handle empty TextBox by @puk06",
+                    "Restore sorting in overlay views by @puk06",
+                    "Add rawIdentifier parameter to avatar sorting methods by @puk06",
+                    "Update timestamp when adding item paths by @puk06",
+                    "Display empty folders in item folder view by @puk06",
+                    "Handle empty variation name by @puk06",
+                    "Adjust formatting of variation update notifications by @puk06",
+                    "Adjust indentation for variation update notifications by @puk06",
+                    "Handle root files in item folder enumeration by @puk06"
+                ],
+                "Changed": [
+                    "Reorganize settings tabs for clearer categorization by @puk06",
+                    "Align NavigateToSegmentCommand type with other commands by @puk06",
+                    "Remove unimplemented sort order option by @puk06",
+                    "Bump version to 2.7.0-beta.9 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.7.0-beta.9"
+        },
+        {
             "Version": "2.7.0-beta.8",
             "ReleaseDate": "2026-08-10",
             "ChangeLogs": {
