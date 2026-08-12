@@ -1,16 +1,19 @@
 {
     "Releases": [
         {
-            "Version": "2.7.0",
+            "Version": "2.7.1",
             "ReleaseDate": "2026-08-12",
             "ChangeLogs": {
                 "Added": [],
-                "Fixed": [],
+                "Fixed": [
+                    "Prevent url leakage in download error logs by @puk06"
+                ],
                 "Changed": [
-                    "Bump version to 2.7.0 by @puk06"
+                    "Bump version to 2.7.1 by @puk06",
+                    "Note removal of v2.7.0 stable release by @puk06"
                 ]
             },
-            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.7.0-stable"
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.7.1-stable"
         },
         {
             "Version": "2.7.0-beta.12",
