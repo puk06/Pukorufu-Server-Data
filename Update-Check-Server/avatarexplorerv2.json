@@ -1,6 +1,38 @@
 {
     "Releases": [
         {
+            "Version": "2.8.0-beta.0",
+            "ReleaseDate": "2026-08-17",
+            "ChangeLogs": {
+                "Added": [
+                    "Persist initial setup completion in user preferences by @puk06",
+                    "Add variation hash database to reset options by @puk06",
+                    "Register each subfolder as an item by @puk06",
+                    "Add enable search in folder setting by @puk06",
+                    "Enable common avatar check for all categories by @puk06",
+                    "Seed variation hash on item creation by @puk06"
+                ],
+                "Fixed": [
+                    "Correct category index bounds check in item editor by @puk06",
+                    "Remove redundant item addition messages by @puk06",
+                    "Prevent booth url generation for items without a booth id by @puk06",
+                    "Guard root file enumeration against missing item path by @puk06",
+                    "Correct method call for current item ID in folder search logic by @puk06",
+                    "Prevent unnecessary refresh when selecting files by @puk06",
+                    "Preserve nested search state on undo by @puk06",
+                    "Prevent adding paths when itemPaths is empty by @puk06",
+                    "Preserve selected package on bulk import item update by @puk06"
+                ],
+                "Changed": [
+                    "Centralize item category identifier logic in ItemCategory by @puk06",
+                    "Document localization location in Core by @puk06",
+                    "Clean up codebase and remove unused code by @puk06",
+                    "Bump version to 2.8.0-beta.0 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.8.0-beta.0"
+        },
+        {
             "Version": "2.7.1",
             "ReleaseDate": "2026-08-12",
             "ChangeLogs": {
