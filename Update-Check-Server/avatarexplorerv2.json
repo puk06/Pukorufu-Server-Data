@@ -1,6 +1,21 @@
 {
     "Releases": [
         {
+            "Version": "2.8.0-beta.1",
+            "ReleaseDate": "2026-08-17",
+            "ChangeLogs": {
+                "Added": [],
+                "Fixed": [],
+                "Changed": [
+                    "Centralize singleton access via InstanceRepository by @puk06",
+                    "Simplify item category and repository access by @puk06",
+                    "Add Linux AppImage distribution by @puk06",
+                    "Bump version to 2.8.0-beta.1 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.8.0-beta.1"
+        },
+        {
             "Version": "2.8.0-beta.0",
             "ReleaseDate": "2026-08-17",
             "ChangeLogs": {
