@@ -1,6 +1,26 @@
 {
     "Releases": [
         {
+            "Version": "2.8.0-beta.3",
+            "ReleaseDate": "2026-08-18",
+            "ChangeLogs": {
+                "Added": [
+                    "Persist view mode and grid item size in user preferences by @puk06"
+                ],
+                "Fixed": [
+                    "Fallback to file icon when thumbnail is empty by @puk06",
+                    "Restore scroll and page state when returning to initial page by @puk06",
+                    "Keep grid item size controls always visible to prevent layout shift by @puk06"
+                ],
+                "Changed": [
+                    "Change async void methods to return Task by @puk06",
+                    "Convert item paths to relative with <root> prefix and add V4 migration by @puk06",
+                    "Bump version to 2.8.0-beta.3 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.8.0-beta.3"
+        },
+        {
             "Version": "2.8.0-beta.2",
             "ReleaseDate": "2026-08-18",
             "ChangeLogs": {
