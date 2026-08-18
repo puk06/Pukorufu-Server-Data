@@ -1,6 +1,25 @@
 {
     "Releases": [
         {
+            "Version": "2.8.0-beta.2",
+            "ReleaseDate": "2026-08-18",
+            "ChangeLogs": {
+                "Added": [
+                    "Show common avatar and tags in tooltip by @puk06",
+                    "Add grid view and top-right sort order flyout by @puk06"
+                ],
+                "Fixed": [
+                    "Dispose dynamically loaded thumbnails to prevent memory leak by @puk06",
+                    "Dispose context menu click handlers to prevent memory leak by @puk06",
+                    "Preserve ItemId when copying bulk import item by @puk06"
+                ],
+                "Changed": [
+                    "Bump version to 2.8.0-beta.2 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.8.0-beta.2"
+        },
+        {
             "Version": "2.8.0-beta.1",
             "ReleaseDate": "2026-08-17",
             "ChangeLogs": {
