@@ -1,6 +1,25 @@
 {
     "Releases": [
         {
+            "Version": "2.8.0-beta.4",
+            "ReleaseDate": "2026-08-19",
+            "ChangeLogs": {
+                "Added": [
+                    "Add hide/show item visibility feature by @puk06",
+                    "Add konoasset export option with progress reporting by @puk06",
+                    "Add hidden folder icon by @puk06"
+                ],
+                "Fixed": [
+                    "Restore right panel state after TotalItems is set by @puk06"
+                ],
+                "Changed": [
+                    "Improve ErrorManager thread-safety and remove duplicate error logging by @puk06",
+                    "Bump version to 2.8.0-beta.4 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.8.0-beta.4"
+        },
+        {
             "Version": "2.8.0-beta.3",
             "ReleaseDate": "2026-08-18",
             "ChangeLogs": {
