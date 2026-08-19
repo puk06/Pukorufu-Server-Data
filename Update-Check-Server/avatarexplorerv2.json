@@ -1,6 +1,22 @@
 {
     "Releases": [
         {
+            "Version": "2.8.0-beta.5",
+            "ReleaseDate": "2026-08-19",
+            "ChangeLogs": {
+                "Added": [
+                    "Add IncludeHidden option to search by @puk06"
+                ],
+                "Fixed": [],
+                "Changed": [
+                    "Replace ProgressOverlay with Message.Avalonia notifications by @puk06",
+                    "Streamline item fetching and update method signatures by @puk06",
+                    "Bump version to 2.8.0-beta.5 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.8.0-beta.5"
+        },
+        {
             "Version": "2.8.0-beta.4",
             "ReleaseDate": "2026-08-19",
             "ChangeLogs": {
