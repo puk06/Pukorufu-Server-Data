@@ -1,6 +1,27 @@
 {
     "Releases": [
         {
+            "Version": "2.8.0-beta.6",
+            "ReleaseDate": "2026-08-22",
+            "ChangeLogs": {
+                "Added": [
+                    "Filter item-changed events to add-only and auto-scroll on bulk import by @puk06"
+                ],
+                "Fixed": [
+                    "Assign RestoreGuid correctly in non-initial undo states by @puk06",
+                    "Apply ThumbnailCompressionMaxEdge from user preferences by @puk06"
+                ],
+                "Changed": [
+                    "Apply automated code analysis fixes by @puk06",
+                    "Remove unused usings by @puk06",
+                    "Unify index validation and fix bounds checks by @puk06",
+                    "Use var for createdNode by @puk06",
+                    "Bump version to 2.8.0-beta.6 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.8.0-beta.6"
+        },
+        {
             "Version": "2.8.0-beta.5",
             "ReleaseDate": "2026-08-19",
             "ChangeLogs": {
