@@ -114,6 +114,37 @@ function normalizeVersion(tagName) {
         : tagName.replace(/-stable$/, "");
 }
 
+function extractDownloadUrls(assets, tagName) {
+    const version = normalizeVersion(tagName);
+    const urls = {};
+    
+    const platformPatterns = [
+        { key: "flatpak-aarch64", pattern: /com\.github\.puk06\.vrc_avatar_explorer-aarch64\.flatpak$/ },
+        { key: "flatpak-x86_64", pattern: /com\.github\.puk06\.vrc_avatar_explorer-x86_64\.flatpak$/ },
+        { key: "linux-arm64", pattern: new RegExp(`VRC-Avatar-Explorer_${escapeRegex(version)}-linux-arm64\\.tar\\.gz$`) },
+        { key: "linux-musl-x64", pattern: new RegExp(`VRC-Avatar-Explorer_${escapeRegex(version)}-linux-musl-x64\\.tar\\.gz$`) },
+        { key: "linux-x64", pattern: new RegExp(`VRC-Avatar-Explorer_${escapeRegex(version)}-linux-x64\\.tar\\.gz$`) },
+        { key: "osx-arm64", pattern: new RegExp(`VRC-Avatar-Explorer_${escapeRegex(version)}-osx-arm64\\.zip$`) },
+        { key: "win-arm64", pattern: new RegExp(`VRC-Avatar-Explorer_${escapeRegex(version)}-win-arm64_setup\\.exe$`) },
+        { key: "win-x64", pattern: new RegExp(`VRC-Avatar-Explorer_${escapeRegex(version)}-win-x64_setup\\.exe$`) }
+    ];
+    
+    for (const asset of assets) {
+        for (const { key, pattern } of platformPatterns) {
+            if (pattern.test(asset.name)) {
+                urls[key] = asset.browser_download_url;
+                break;
+            }
+        }
+    }
+    
+    return urls;
+}
+
+function escapeRegex(string) {
+    return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
 async function main() {
     const releases = await getAllReleases();
 
@@ -134,7 +165,8 @@ async function main() {
             Version: normalizeVersion(current.tag_name),
             ReleaseDate: releaseDateStr,
             ChangeLogs: changeLogs,
-            ReleaseUrl: "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/" + current.tag_name
+            ReleaseUrl: "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/" + current.tag_name,
+            DownloadUrls: extractDownloadUrls(current.assets, current.tag_name)
         });
     }
 
