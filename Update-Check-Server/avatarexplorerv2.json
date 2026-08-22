@@ -1,6 +1,25 @@
 {
     "Releases": [
         {
+            "Version": "2.8.0-beta.7",
+            "ReleaseDate": "2026-08-22",
+            "ChangeLogs": {
+                "Added": [
+                    "Add keyboard shortcuts to item editor overlay by @puk06",
+                    "Sort files and folders using natural ordering by @puk06"
+                ],
+                "Fixed": [
+                    "Side panel sometimes failed to open automatically by @opencode-agent[bot]"
+                ],
+                "Changed": [
+                    "Consolidate thumbnail properties into ThumbnailSource by @puk06",
+                    "Add GitHub Actions workflow for OpenCode by @puk06",
+                    "Bump version to 2.8.0-beta.7 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.8.0-beta.7"
+        },
+        {
             "Version": "2.8.0-beta.6",
             "ReleaseDate": "2026-08-22",
             "ChangeLogs": {
