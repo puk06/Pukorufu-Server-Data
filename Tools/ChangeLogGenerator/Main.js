@@ -132,7 +132,11 @@ function extractDownloadUrls(assets, tagName) {
     for (const asset of assets) {
         for (const { key, pattern } of platformPatterns) {
             if (pattern.test(asset.name)) {
-                urls[key] = asset.browser_download_url;
+                const sha256 = asset.digest ? asset.digest.replace(/^sha256:/, "") : null;
+                urls[key] = {
+                    Url: asset.browser_download_url,
+                    Sha256: sha256
+                };
                 break;
             }
         }
