@@ -1,6 +1,61 @@
 {
     "Releases": [
         {
+            "Version": "2.8.0",
+            "ReleaseDate": "2026-08-23",
+            "ChangeLogs": {
+                "Added": [
+                    "Add auto-update download and execute with sha256 verification by @puk06"
+                ],
+                "Fixed": [
+                    "Delete temp subfolders individually by @puk06"
+                ],
+                "Changed": [
+                    "Remove windows installer and flatpak build workflows from CI by @puk06",
+                    "Convert third-party licenses to markdown and list all packages recursively by @puk06",
+                    "Add hard line breaks between noto font repository links by @puk06",
+                    "Add license section to README and README-en by @puk06",
+                    "Rename LICENSE.txt to LICENSE by @puk06",
+                    "Bump version to 2.8.0 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.8.0-stable",
+            "DownloadUrls": {
+                "flatpak-aarch64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.8.0-stable/com.github.puk06.vrc_avatar_explorer-aarch64.flatpak",
+                    "Sha256": "774f8633520b2abf59b7cfdb84f6d07c5b688436eaac8896d9338a613ca9661f"
+                },
+                "flatpak-x86_64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.8.0-stable/com.github.puk06.vrc_avatar_explorer-x86_64.flatpak",
+                    "Sha256": "80ddefc36c28d47af9ec1d18f41f83b704fd28365c75d1bd8aecee4ae6540740"
+                },
+                "linux-arm64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.8.0-stable/VRC-Avatar-Explorer_2.8.0-linux-arm64.tar.gz",
+                    "Sha256": "fab239647d2af3a3b6a2ea8044b21e75095d3ae966a70b1b4e570d016797dd6c"
+                },
+                "linux-musl-x64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.8.0-stable/VRC-Avatar-Explorer_2.8.0-linux-musl-x64.tar.gz",
+                    "Sha256": "1a36c6e5fec810ea0998839ef9c9e8d0c189c9cb70083f4ebf4fb468d77c07a9"
+                },
+                "linux-x64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.8.0-stable/VRC-Avatar-Explorer_2.8.0-linux-x64.tar.gz",
+                    "Sha256": "9cf7d4b97d5f91e1cfa2dbf1b3c6493b2cb93e4a54614581036573c7578fccbb"
+                },
+                "osx-arm64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.8.0-stable/VRC-Avatar-Explorer_2.8.0-osx-arm64.zip",
+                    "Sha256": "244a035a0253beb3576f0c2a698d98298a84504e7adf58634b7ea2d1f875ea5d"
+                },
+                "win-arm64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.8.0-stable/VRC-Avatar-Explorer_2.8.0-win-arm64_setup.exe",
+                    "Sha256": "9592aa71d7279401225adb13dc64fb3373618def3a535ca5a28688ea7f243586"
+                },
+                "win-x64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.8.0-stable/VRC-Avatar-Explorer_2.8.0-win-x64_setup.exe",
+                    "Sha256": "c101ad83149a9c78a723aad2a0420c876cfddd177009fc8abb0da10aa97ace2e"
+                }
+            }
+        },
+        {
             "Version": "2.8.0-beta.8",
             "ReleaseDate": "2026-08-23",
             "ChangeLogs": {
