@@ -1,6 +1,79 @@
 {
     "Releases": [
         {
+            "Version": "2.9.0-beta.0",
+            "ReleaseDate": "2026-08-30",
+            "ChangeLogs": {
+                "Added": [
+                    "Enhance backup restoration dialog with initial path setting by @puk06",
+                    "Add report issue button to about tab by @puk06",
+                    "Add prefix to common avatar titles by @puk06",
+                    "Add setting to toggle automatic path rewriting on import by @puk06",
+                    "Add Ctrl+F keyboard shortcut to focus search box by @puk06",
+                    "Add exclude from common avatar check flag and editor bindings by @puk06"
+                ],
+                "Fixed": [
+                    "Preserve custom category when auto-fixing item types by @puk06",
+                    "Update link-to-original description to match current spec by @puk06",
+                    "Apply anti-aliasing setting to avatar thumbnails in select/resolve overlays by @puk06",
+                    "Concatenate folder paths when updating item paths by @puk06",
+                    "Flip HoverThumbnailWindow upward when cursor is in lower half of screen by @puk06"
+                ],
+                "Changed": [
+                    "Add SkiaSharp and HarfBuzzSharp NOTICE to third-party licenses by @puk06",
+                    "Configure conditional model and prompt for comment-triggered reviews by @puk06",
+                    "Switch review model to deepseek-v4-flash by @puk06",
+                    "Correct model path in opencode workflow by @puk06",
+                    "Switch model to opencode-go/qwen3.7-plus in workflow by @puk06",
+                    "Add client tutorial for creating new clients with AvatarExplorer.Core by @puk06",
+                    "Unify Export API to accept ExportRequest by @puk06",
+                    "Use named tuple for ReportProgress by @puk06",
+                    "Fix misspelled LocalizableField class name by @puk06",
+                    "Clarify navigation and item management API documentation by @puk06",
+                    "Add bilingual notice and contributor guidance for third-party licenses by @puk06",
+                    "Add XML doc comments (summary) to public API by @puk06",
+                    "Use point-based scoring to sort search results by @puk06",
+                    "Fix Japanese comment clarification by @puk06",
+                    "Bump version to 2.9.0-beta.0 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.9.0-beta.0",
+            "DownloadUrls": {
+                "flatpak-aarch64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.9.0-beta.0/com.github.puk06.vrc_avatar_explorer-aarch64.flatpak",
+                    "Sha256": "4f7c708689de96f40f6f3821348b3cc9ffe94b45bfd86deaae9defc55c96d90a"
+                },
+                "flatpak-x86_64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.9.0-beta.0/com.github.puk06.vrc_avatar_explorer-x86_64.flatpak",
+                    "Sha256": "f32eff712569fb242409167fecafd52c599822fdbdacc07d8c5be87b1e32e1f3"
+                },
+                "linux-arm64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.9.0-beta.0/VRC-Avatar-Explorer_2.9.0-beta.0-linux-arm64.tar.gz",
+                    "Sha256": "68a82801d2cd92e7a09fc451b5bd7e4105870276274718e37878922019b14590"
+                },
+                "linux-musl-x64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.9.0-beta.0/VRC-Avatar-Explorer_2.9.0-beta.0-linux-musl-x64.tar.gz",
+                    "Sha256": "a19718ded5eb9fdf3bc56b74d53cb35200208e209db69b54c3998fc1fdbb260c"
+                },
+                "linux-x64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.9.0-beta.0/VRC-Avatar-Explorer_2.9.0-beta.0-linux-x64.tar.gz",
+                    "Sha256": "221f4aadf723cf8b1be3851cc937c7a528b9f2cbfbe491f948941eee9a3c7198"
+                },
+                "osx-arm64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.9.0-beta.0/VRC-Avatar-Explorer_2.9.0-beta.0-osx-arm64.zip",
+                    "Sha256": "491f0d63adf61352ada34eb6107bbad7a96c2d425bea45620cf7729b3859ee3e"
+                },
+                "win-arm64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.9.0-beta.0/VRC-Avatar-Explorer_2.9.0-beta.0-win-arm64_setup.exe",
+                    "Sha256": "2f6e41483a16c235bbe054d9aabcc7072fcd46f2d2228b9901829fffd1e2601e"
+                },
+                "win-x64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.9.0-beta.0/VRC-Avatar-Explorer_2.9.0-beta.0-win-x64_setup.exe",
+                    "Sha256": "075d01adc2f88c19ff845e3c3abd93586f162b0f2254f3c2fbc6c5e2e172b0f0"
+                }
+            }
+        },
+        {
             "Version": "2.8.0",
             "ReleaseDate": "2026-08-23",
             "ChangeLogs": {
