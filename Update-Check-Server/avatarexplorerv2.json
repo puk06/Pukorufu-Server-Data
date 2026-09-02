@@ -1,6 +1,67 @@
 {
     "Releases": [
         {
+            "Version": "2.9.0-beta.2",
+            "ReleaseDate": "2026-09-02",
+            "ChangeLogs": {
+                "Added": [
+                    "Replace Processing.Downloading with SoftwareUpdate localization keys by @puk06",
+                    "Add setting to hide avatar category when avatar selected by @puk06",
+                    "Add booth id support to temp avatar by @puk06",
+                    "Add progress reporting to AddPaths by @puk06",
+                    "Display tags on all screens and show BoothID as tag for temp avatars by @puk06"
+                ],
+                "Fixed": [
+                    "Hide hover thumbnail when item is unloaded from visual tree by @puk06",
+                    "Add missing EnableSearchInFolder preference initialization by @puk06",
+                    "Exclude TempAvatar from its own resolution candidate list by @puk06",
+                    "Handle null state on initial screen when restoring search state by @puk06",
+                    "Handle -1 BoothId values in search indexes by @puk06"
+                ],
+                "Changed": [
+                    "Reuse static ItemCategory instances via factory methods by @puk06",
+                    "Remove unnecessary ItemCategory.Copy by @puk06",
+                    "Align DataImporter structure with DataExporter using ImportContext by @puk06",
+                    "Bump version to 2.9.0-beta.2 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.9.0-beta.2",
+            "DownloadUrls": {
+                "flatpak-aarch64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.9.0-beta.2/com.github.puk06.vrc_avatar_explorer-aarch64.flatpak",
+                    "Sha256": "e9cadadd8f660df128ca43955d166ec641c3326c3cc9afa080551d0b83b0b46c"
+                },
+                "flatpak-x86_64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.9.0-beta.2/com.github.puk06.vrc_avatar_explorer-x86_64.flatpak",
+                    "Sha256": "b3e6061f9e358fc9b6a89a9f2b75af10005c4e92161e085f630a2e2e0a66770d"
+                },
+                "linux-arm64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.9.0-beta.2/VRC-Avatar-Explorer_2.9.0-beta.2-linux-arm64.tar.gz",
+                    "Sha256": "bfea606f155444c0045cf80b05170f80806bb06b26dd56784e43ab2e89925359"
+                },
+                "linux-musl-x64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.9.0-beta.2/VRC-Avatar-Explorer_2.9.0-beta.2-linux-musl-x64.tar.gz",
+                    "Sha256": "1329a2d25e3219874b3edca68141f0574a83f9842c7c679dbab12c170d35f1fd"
+                },
+                "linux-x64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.9.0-beta.2/VRC-Avatar-Explorer_2.9.0-beta.2-linux-x64.tar.gz",
+                    "Sha256": "4c6efa633ac3eeaf850cbab3fb3de3c05e7cedff23ff55b985d03b1c90df9a41"
+                },
+                "osx-arm64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.9.0-beta.2/VRC-Avatar-Explorer_2.9.0-beta.2-osx-arm64.zip",
+                    "Sha256": "2eff9406607a790a2bca23e48b4bcc499056f0f0e74390cf619568cf673e5458"
+                },
+                "win-arm64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.9.0-beta.2/VRC-Avatar-Explorer_2.9.0-beta.2-win-arm64_setup.exe",
+                    "Sha256": "968b7a174fb04db4b04d92853fe42353227841d7b33ca97cb3bcf3ea852ec75e"
+                },
+                "win-x64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.9.0-beta.2/VRC-Avatar-Explorer_2.9.0-beta.2-win-x64_setup.exe",
+                    "Sha256": "c367c275a29c5139ecb0c7155a407d4710e1515dde1b7a6df0c824a08d669ddb"
+                }
+            }
+        },
+        {
             "Version": "2.9.0-beta.1",
             "ReleaseDate": "2026-08-31",
             "ChangeLogs": {
