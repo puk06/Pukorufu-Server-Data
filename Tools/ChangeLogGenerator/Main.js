@@ -14,28 +14,14 @@ const api = axios.create({
     }
 });
 
-async function getAllReleases() {
-    const allReleases = [];
-    let page = 1;
-    let hasMore = true;
-
-    while (hasMore) {
-        const res = await api.get(`/repos/${OWNER}/${REPO}/releases`, {
-            params: {
-                per_page: 100,
-                page: page
-            }
-        });
-
-        if (res.data.length === 0) {
-            hasMore = false;
-        } else {
-            allReleases.push(...res.data);
-            page++;
+async function getLatestReleases(count = 5) {
+    const res = await api.get(`/repos/${OWNER}/${REPO}/releases`, {
+        params: {
+            per_page: count,
+            page: 1
         }
-    }
-
-    return allReleases;
+    });
+    return res.data;
 }
 
 function classify(lines) {
@@ -150,14 +136,29 @@ function escapeRegex(string) {
 }
 
 async function main() {
-    const releases = await getAllReleases();
+    const outputPath = "../../Update-Check-Server/avatarexplorerv2.json";
+    let existingReleases = [];
+
+    if (fs.existsSync(outputPath)) {
+        const existingData = JSON.parse(fs.readFileSync(outputPath, "utf-8"));
+        existingReleases = existingData.Releases || [];
+    }
+
+    const releases = await getLatestReleases(5);
+    const existingVersions = new Set(existingReleases.map(r => r.Version));
 
     const sorted = releases.sort((a, b) => new Date(a.created_at) - new Date(b.created_at));
 
-    const result = [];
+    const newReleases = [];
 
     for (const element of sorted) {
         const current = element;
+        const version = normalizeVersion(current.tag_name);
+
+        if (existingVersions.has(version)) {
+            continue;
+        }
+
         const whatsChangedLines = extractWhatsChangedLines(current.body);
         const changeLogs = classify(whatsChangedLines);
 
@@ -165,8 +166,8 @@ async function main() {
         const jstDate = new Date(date.getTime() + (9 * 60 * 60 * 1000));
         const releaseDateStr = jstDate.toISOString().split("T")[0];
 
-        result.push({
-            Version: normalizeVersion(current.tag_name),
+        newReleases.push({
+            Version: version,
             ReleaseDate: releaseDateStr,
             ChangeLogs: changeLogs,
             ReleaseUrl: "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/" + current.tag_name,
@@ -174,19 +175,19 @@ async function main() {
         });
     }
 
-    result.reverse();
+    const result = [...newReleases.reverse(), ...existingReleases];
 
     const output = {
         Releases: result
     };
 
     fs.writeFileSync(
-        "../../Update-Check-Server/avatarexplorerv2.json",
+        outputPath,
         JSON.stringify(output, null, 4),
         "utf-8"
     );
 
-    console.log("完了: 生成しました");
+    console.log(`完了: ${newReleases.length}件の新規リリースを追加しました`);
 }
 
 main().catch(console.error);
