@@ -1,6 +1,59 @@
 {
     "Releases": [
         {
+            "Version": "2.9.0",
+            "ReleaseDate": "2026-09-03",
+            "ChangeLogs": {
+                "Added": [
+                    "Add implemented status toggle to item context menu by @puk06",
+                    "Add URL support to content addition and improve context menu icons by @puk06",
+                    "Allow editing download filename when adding URL content by @puk06"
+                ],
+                "Fixed": [
+                    "Sanitize filenames obtained via URL before saving by @puk06"
+                ],
+                "Changed": [
+                    "Unify path-related naming to \"content\" terminology by @puk06",
+                    "Bump version to 2.9.0 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.9.0-stable",
+            "DownloadUrls": {
+                "flatpak-aarch64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.9.0-stable/com.github.puk06.vrc_avatar_explorer-aarch64.flatpak",
+                    "Sha256": "ee246a128282489fc7080e651794ab2c8ebb0212a1f0aad0c2706ab418557e6d"
+                },
+                "flatpak-x86_64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.9.0-stable/com.github.puk06.vrc_avatar_explorer-x86_64.flatpak",
+                    "Sha256": "644237a5c7e438c4d1bac5e8c883a3acbb628ab1f058897996732d2a641bfc6d"
+                },
+                "linux-arm64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.9.0-stable/VRC-Avatar-Explorer_2.9.0-linux-arm64.tar.gz",
+                    "Sha256": "417ca521c0da95f689a8732fef264c302f1b766d856d31f983ebc6cf2a681839"
+                },
+                "linux-musl-x64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.9.0-stable/VRC-Avatar-Explorer_2.9.0-linux-musl-x64.tar.gz",
+                    "Sha256": "5c35cf9fb56c002420358fac724c4f8afe75d3244abc7d682839ce9c0dec0601"
+                },
+                "linux-x64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.9.0-stable/VRC-Avatar-Explorer_2.9.0-linux-x64.tar.gz",
+                    "Sha256": "d4499fd2e61fd4a3c2928090dd2fb15c8f085d8b9b073772ff51ce6c81302bf8"
+                },
+                "osx-arm64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.9.0-stable/VRC-Avatar-Explorer_2.9.0-osx-arm64.zip",
+                    "Sha256": "30667101b16c02531bfcfa25c26f6d7bf75b4e6baa1321ed719a79601aa707b0"
+                },
+                "win-arm64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.9.0-stable/VRC-Avatar-Explorer_2.9.0-win-arm64_setup.exe",
+                    "Sha256": "febc897933e5d8c4b84ec766fd01ea3c1566d5e4eb68f8da4aad13ae270743d5"
+                },
+                "win-x64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.9.0-stable/VRC-Avatar-Explorer_2.9.0-win-x64_setup.exe",
+                    "Sha256": "2da527e0a3b5a2fcdd1aeed247a77f3ba392f40f5eb4b5a25aec1468b5f84dcc"
+                }
+            }
+        },
+        {
             "Version": "2.9.0-beta.4",
             "ReleaseDate": "2026-09-03",
             "ChangeLogs": {
