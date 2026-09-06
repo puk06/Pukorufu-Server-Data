@@ -187,7 +187,7 @@ async function main() {
         "utf-8"
     );
 
-    console.log(`完了: ${newReleases.length}件の新規リリースを追加しました`);
+    console.log(`${newReleases.length}件の新規リリースを追加しました！`);
 }
 
 main().catch(console.error);
