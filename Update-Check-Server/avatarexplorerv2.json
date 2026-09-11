@@ -1,6 +1,62 @@
 {
     "Releases": [
         {
+            "Version": "2.10.0-beta.0",
+            "ReleaseDate": "2026-09-11",
+            "ChangeLogs": {
+                "Added": [
+                    "Add JsonPathReader utility for JSON file path navigation by @puk06",
+                    "Improve right-click menu UX and add copy path functionality by @puk06"
+                ],
+                "Fixed": [
+                    "Prevent unitypackage selection reset on bulk import refresh by @puk06",
+                    "Add exception handling to KonoAsset folder path resolution by @puk06",
+                    "Limit ContainsScript detection to Assets folder only by @puk06"
+                ],
+                "Changed": [
+                    "Rename ItemPathType to ItemContentType by @puk06",
+                    "Remove unused DirectoryCopy.Title key and fix status messages by @puk06",
+                    "Rename DataImportType enum to DataImportTypes by @puk06",
+                    "Bump version to 2.10.0-beta.0 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.10.0-beta.0",
+            "DownloadUrls": {
+                "flatpak-aarch64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.10.0-beta.0/com.github.puk06.vrc_avatar_explorer-aarch64.flatpak",
+                    "Sha256": "d3380c432bb0c5696a333f57a04ba2acba66313faae992f310b1e5c5d1f30841"
+                },
+                "flatpak-x86_64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.10.0-beta.0/com.github.puk06.vrc_avatar_explorer-x86_64.flatpak",
+                    "Sha256": "1001747f168533cb66c71b294042c56b3726da7c778afbd2a1ccc19b937bd340"
+                },
+                "linux-arm64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.10.0-beta.0/VRC-Avatar-Explorer_2.10.0-beta.0-linux-arm64.tar.gz",
+                    "Sha256": "6fab8b6dbb1aa16c0fc1a3b54ba5aa1f8393d8d246c173383be33ad73eea46f3"
+                },
+                "linux-musl-x64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.10.0-beta.0/VRC-Avatar-Explorer_2.10.0-beta.0-linux-musl-x64.tar.gz",
+                    "Sha256": "0e4d461a9ffffe76d521a9f2ee4309be6c7abc55b28e100d3d33ae4ef13cd3d2"
+                },
+                "linux-x64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.10.0-beta.0/VRC-Avatar-Explorer_2.10.0-beta.0-linux-x64.tar.gz",
+                    "Sha256": "a860b5e81a12b55a70d26144ba80bf2c24e195cbc47dff76e22821bf0479d37a"
+                },
+                "osx-arm64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.10.0-beta.0/VRC-Avatar-Explorer_2.10.0-beta.0-osx-arm64.zip",
+                    "Sha256": "9c81f0092846393adbfcd4306a0e582cb9b6b8f9427fe544a4568a62c1572f23"
+                },
+                "win-arm64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.10.0-beta.0/VRC-Avatar-Explorer_2.10.0-beta.0-win-arm64_setup.exe",
+                    "Sha256": "6daf391b1b3053737446603dcb64437ace32590b125be05c0311cd78d1b1a2b1"
+                },
+                "win-x64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.10.0-beta.0/VRC-Avatar-Explorer_2.10.0-beta.0-win-x64_setup.exe",
+                    "Sha256": "71b552a190ac6216d1e49e93affba66fe28aa3e77992d85812756330ec60b545"
+                }
+            }
+        },
+        {
             "Version": "2.9.0",
             "ReleaseDate": "2026-09-03",
             "ChangeLogs": {
