@@ -1,6 +1,62 @@
 {
     "Releases": [
         {
+            "Version": "2.10.0-beta.5",
+            "ReleaseDate": "2026-09-23",
+            "ChangeLogs": {
+                "Added": [
+                    "Add ShowInMainView context menu action for avatar items by @puk06",
+                    "Add negation/exclusion tag support to Advanced Search panel by @puk06"
+                ],
+                "Fixed": [
+                    "Update selected items when language changes by @puk06",
+                    "Bind FontFamily to MenuItems in ContextMenu by @puk06"
+                ],
+                "Changed": [
+                    "Improve AdvancedSearch tags and align TagViewModel design by @puk06",
+                    "Remove unused StartsWithConverter by @puk06",
+                    "Update Avalonia, PDFtoImage, and ReactiveUI packages by @puk06",
+                    "Add PDFium license information by @puk06",
+                    "Bump version to 2.10.0-beta.5 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.10.0-beta.5",
+            "DownloadUrls": {
+                "flatpak-aarch64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.10.0-beta.5/com.github.puk06.vrc_avatar_explorer-aarch64.flatpak",
+                    "Sha256": "cdaf19600706281182416ad9f831ba60374e91eab42a7277438bc21bf6956954"
+                },
+                "flatpak-x86_64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.10.0-beta.5/com.github.puk06.vrc_avatar_explorer-x86_64.flatpak",
+                    "Sha256": "c68c88ffc9dde9dd20b1305e3dff3f6ec26a03e6a78a672becb77a669ffc2609"
+                },
+                "linux-arm64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.10.0-beta.5/VRC-Avatar-Explorer_2.10.0-beta.5-linux-arm64.tar.gz",
+                    "Sha256": "a534cdc096420e6a038bb437e7fa270322affdf0e3db15256cad79deba2435f3"
+                },
+                "linux-musl-x64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.10.0-beta.5/VRC-Avatar-Explorer_2.10.0-beta.5-linux-musl-x64.tar.gz",
+                    "Sha256": "bcbdd4a67c7b1680eb4d609509f8e5a11be235025a1357b0d1d412cfe4f2e69c"
+                },
+                "linux-x64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.10.0-beta.5/VRC-Avatar-Explorer_2.10.0-beta.5-linux-x64.tar.gz",
+                    "Sha256": "9f76e05bb80d7a4d8e528ea4a64020487662ecacd066fd3b25decdd1a90ca21b"
+                },
+                "osx-arm64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.10.0-beta.5/VRC-Avatar-Explorer_2.10.0-beta.5-osx-arm64.zip",
+                    "Sha256": "9a959e49d2ae538ce22f641deb6e5718e66aa3742e5c4a70002199f0bda377a8"
+                },
+                "win-arm64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.10.0-beta.5/VRC-Avatar-Explorer_2.10.0-beta.5-win-arm64_setup.exe",
+                    "Sha256": "3c79611488054f9145e63893e9aef7f41a3c07cfcde7bacebc34a744e10ab28c"
+                },
+                "win-x64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.10.0-beta.5/VRC-Avatar-Explorer_2.10.0-beta.5-win-x64_setup.exe",
+                    "Sha256": "bfa925f5cf91384a32b357ac64f965ff8614fdeceb3ac2d654341b0818886f26"
+                }
+            }
+        },
+        {
             "Version": "2.10.0-beta.4",
             "ReleaseDate": "2026-09-20",
             "ChangeLogs": {
