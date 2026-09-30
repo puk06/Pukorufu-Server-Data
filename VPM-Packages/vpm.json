@@ -1974,6 +1974,24 @@
                     "url": "https://github.com/puk06/Skinned-Mesh-Bone-Viewer/releases/download/v1.0.0/net.puk06.skinned-mesh-bone-viewer-v1.0.0.zip?"
                 }
             }
+        },
+        "net.puk06.animscript": {
+            "versions": {
+                "0.1.0": {
+                    "name": "net.puk06.animscript",
+                    "displayName": "AnimScript",
+                    "version": "0.1.0",
+                    "vpmDependencies": {},
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "AnimScript is a script language for creating animator controllers. It allows you to create complex animator controllers with simple scripts.",
+                    "url": "https://github.com/puk06/AnimScript/releases/download/v0.1.0/net.puk06.animscript-v0.1.0.zip?"
+                }
+            }
         }
     },
     "author": "Pukorufu",
