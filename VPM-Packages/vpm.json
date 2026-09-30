@@ -1990,6 +1990,48 @@
                     "unity": "2022.3",
                     "description": "AnimScript is a script language for creating animator controllers. It allows you to create complex animator controllers with simple scripts.",
                     "url": "https://github.com/puk06/AnimScript/releases/download/v0.1.0/net.puk06.animscript-v0.1.0.zip?"
+                },
+                "0.1.1": {
+                    "name": "net.puk06.animscript",
+                    "displayName": "AnimScript",
+                    "version": "0.1.1",
+                    "vpmDependencies": {},
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "AnimScript is a script language for creating animator controllers. It allows you to create complex animator controllers with simple scripts.",
+                    "url": "https://github.com/puk06/AnimScript/releases/download/v0.1.1/net.puk06.animscript-v0.1.1.zip?"
+                },
+                "0.1.2": {
+                    "name": "net.puk06.animscript",
+                    "displayName": "AnimScript",
+                    "version": "0.1.2",
+                    "vpmDependencies": {},
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "AnimScript is a script language for creating animator controllers. It allows you to create complex animator controllers with simple scripts.",
+                    "url": "https://github.com/puk06/AnimScript/releases/download/v0.1.2/net.puk06.animscript-v0.1.2.zip?"
+                },
+                "0.2.0": {
+                    "name": "net.puk06.animscript",
+                    "displayName": "AnimScript",
+                    "version": "0.2.0",
+                    "vpmDependencies": {},
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "AnimScript is a script language for creating animator controllers. It allows you to create complex animator controllers with simple scripts.",
+                    "url": "https://github.com/puk06/AnimScript/releases/download/v0.2.0/net.puk06.animscript-v0.2.0.zip?"
                 }
             }
         }
@@ -1998,5 +2040,3 @@
     "id": "net.puk06.vpm",
     "url": "https://vpm.pukosrv.net/"
 }
-
-
