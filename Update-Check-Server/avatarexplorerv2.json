@@ -1,6 +1,54 @@
 {
     "Releases": [
         {
+            "Version": "2.11.2",
+            "ReleaseDate": "2026-10-09",
+            "ChangeLogs": {
+                "Added": [
+                    "Add setting to toggle button animation by @puk06"
+                ],
+                "Fixed": [],
+                "Changed": [
+                    "Bump version to 2.11.2 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.11.2-stable",
+            "DownloadUrls": {
+                "flatpak-aarch64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.11.2-stable/com.github.puk06.vrc_avatar_explorer-aarch64.flatpak",
+                    "Sha256": "680845ff921aa691f318f54eb34fba2a1a866de6045778e8eaf1a3f78bb4281a"
+                },
+                "flatpak-x86_64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.11.2-stable/com.github.puk06.vrc_avatar_explorer-x86_64.flatpak",
+                    "Sha256": "e9d416f6853629cd2f2ef19cb3ee5f7017cbd558b715195550edf29b8af2f5fb"
+                },
+                "linux-arm64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.11.2-stable/VRC-Avatar-Explorer_2.11.2-linux-arm64.tar.gz",
+                    "Sha256": "554dcffcb62dad97614683f5a42368c4a94c1caa6fd6ecddb368d26ddf16f69c"
+                },
+                "linux-musl-x64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.11.2-stable/VRC-Avatar-Explorer_2.11.2-linux-musl-x64.tar.gz",
+                    "Sha256": "87a6fac73013c100e002787a7fd4bf9e548064264accc18d656c9eadab28ec63"
+                },
+                "linux-x64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.11.2-stable/VRC-Avatar-Explorer_2.11.2-linux-x64.tar.gz",
+                    "Sha256": "82cf1c0cea698bfa60b414f9b784d527dc17f535b8371b74bed6822c1391e356"
+                },
+                "osx-arm64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.11.2-stable/VRC-Avatar-Explorer_2.11.2-osx-arm64.zip",
+                    "Sha256": "a58d8886d58d40769da5c2fa1a503340e87a2834e060d1bf271f9f50a6d56437"
+                },
+                "win-arm64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.11.2-stable/VRC-Avatar-Explorer_2.11.2-win-arm64_setup.exe",
+                    "Sha256": "f907c00fb2568a5e10e581a839336db794d250c3b76d390ce8f7086bbe805991"
+                },
+                "win-x64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.11.2-stable/VRC-Avatar-Explorer_2.11.2-win-x64_setup.exe",
+                    "Sha256": "67130907ef6917696e1d10b966c5951ec24711e45b533c3436433ba7e55e788c"
+                }
+            }
+        },
+        {
             "Version": "2.11.1",
             "ReleaseDate": "2026-10-08",
             "ChangeLogs": {
