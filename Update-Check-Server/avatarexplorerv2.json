@@ -1,6 +1,55 @@
 {
     "Releases": [
         {
+            "Version": "2.13.0-beta.0",
+            "ReleaseDate": "2026-10-23",
+            "ChangeLogs": {
+                "Added": [
+                    "Handle vrcae bulk-item-import URI by @puk06",
+                    "Rank results by field weights without applying regular sort by @puk06"
+                ],
+                "Fixed": [],
+                "Changed": [
+                    "Bump version to 2.13.0-beta.0 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.13.0-beta.0",
+            "DownloadUrls": {
+                "flatpak-aarch64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.13.0-beta.0/com.github.puk06.vrc_avatar_explorer-aarch64.flatpak",
+                    "Sha256": "3a50f635afc7ac1aa5230cb94aa457c5ec28e74568ff5fc56e7ec01a9dfeb7fb"
+                },
+                "flatpak-x86_64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.13.0-beta.0/com.github.puk06.vrc_avatar_explorer-x86_64.flatpak",
+                    "Sha256": "ccb7fabae928c409db308424feaaca5400cc8107a5fdd787d500c69c82b6d0a2"
+                },
+                "linux-arm64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.13.0-beta.0/VRC-Avatar-Explorer_2.13.0-beta.0-linux-arm64.tar.gz",
+                    "Sha256": "829a41baa4131facb9c2eb569bb0ca3cf6b86b74c946a0d131dc6ea61f0d8165"
+                },
+                "linux-musl-x64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.13.0-beta.0/VRC-Avatar-Explorer_2.13.0-beta.0-linux-musl-x64.tar.gz",
+                    "Sha256": "0f4c67d9b8dd99cdf546be63c60d9c3a3154c96abe9bd9b0a21849884947840c"
+                },
+                "linux-x64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.13.0-beta.0/VRC-Avatar-Explorer_2.13.0-beta.0-linux-x64.tar.gz",
+                    "Sha256": "2fe06785d088d49e48a0a82e546980cdfff37605b8b88592577314f8a68977b6"
+                },
+                "osx-arm64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.13.0-beta.0/VRC-Avatar-Explorer_2.13.0-beta.0-osx-arm64.zip",
+                    "Sha256": "2e7cd245678e86d93a5be0910e039f6d76781ae1b9c61606383e506a118afbe5"
+                },
+                "win-arm64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.13.0-beta.0/VRC-Avatar-Explorer_2.13.0-beta.0-win-arm64_setup.exe",
+                    "Sha256": "58f533a1f17d382dd9c7e8deff58cad264428810c620b335fbb1833242894956"
+                },
+                "win-x64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.13.0-beta.0/VRC-Avatar-Explorer_2.13.0-beta.0-win-x64_setup.exe",
+                    "Sha256": "b7bf15159b14ef221ad561e36e134e198ebade37f94aa308ab1eb0a87c133b50"
+                }
+            }
+        },
+        {
             "Version": "2.12.2",
             "ReleaseDate": "2026-10-21",
             "ChangeLogs": {
