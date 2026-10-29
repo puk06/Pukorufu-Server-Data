@@ -2249,6 +2249,23 @@
                     "unity": "2022.3",
                     "description": "Easy-to-use animation system for Unity Transform (Canvas UI and GameObjects) with UdonSharp.",
                     "url": "https://github.com/puk06/UdonAnimationSystem/releases/download/v0.1.0/net.puk06.udon-animation-system-v0.1.0.zip?"
+                },
+                "0.2.0": {
+                    "name": "net.puk06.udon-animation-system",
+                    "displayName": "Udon Animation System",
+                    "version": "0.2.0",
+                    "vpmDependencies": {
+                        "com.vrchat.worlds": ">=3.5.0",
+                        "net.puk06.udon-utils": ">=1.0.0"
+                    },
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "Easy-to-use animation system for Unity Transform (Canvas UI and GameObjects) with UdonSharp.",
+                    "url": "https://github.com/puk06/UdonAnimationSystem/releases/download/v0.2.0/net.puk06.udon-animation-system-v0.2.0.zip?"
                 }
             }
         }
