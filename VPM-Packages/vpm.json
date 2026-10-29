@@ -1451,6 +1451,23 @@
                     "unity": "2022.3",
                     "description": "Easy-to-use animation system for Unity Canvas with UdonSharp.",
                     "url": "https://github.com/puk06/CanvasAnimationSystem/releases/download/v0.2.0/net.puk06.canvas-animation-system-v0.2.0.zip?"
+                },
+                "0.3.1": {
+                    "name": "net.puk06.canvas-animation-system",
+                    "displayName": "Canvas Animation System",
+                    "version": "0.3.1",
+                    "vpmDependencies": {
+                        "com.vrchat.worlds": ">=3.5.0",
+                        "net.puk06.udon-utils": ">=1.0.0"
+                    },
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "Easy-to-use animation system for Unity Canvas with UdonSharp.",
+                    "url": "https://github.com/puk06/CanvasAnimationSystem/releases/download/v0.3.1/net.puk06.canvas-animation-system-v0.3.1.zip?"
                 }
             }
         },
@@ -2211,6 +2228,27 @@
                     "unity": "2022.3",
                     "description": "AnimScript is a script language for creating animator controllers. It allows you to create complex animator controllers with simple scripts.",
                     "url": "https://github.com/puk06/AnimScript/releases/download/v0.10.0/net.puk06.animscript-v0.10.0.zip?"
+                }
+            }
+        },
+        "net.puk06.udon-animation-system": {
+            "versions": {
+                "0.1.0": {
+                    "name": "net.puk06.udon-animation-system",
+                    "displayName": "Udon Animation System",
+                    "version": "0.1.0",
+                    "vpmDependencies": {
+                        "com.vrchat.worlds": ">=3.5.0",
+                        "net.puk06.udon-utils": ">=1.0.0"
+                    },
+                    "author": {
+                        "name": "Pukorufu",
+                        "url": "https://github.com/puk06",
+                        "email": "pukorufu@pukosrv.net"
+                    },
+                    "unity": "2022.3",
+                    "description": "Easy-to-use animation system for Unity Transform (Canvas UI and GameObjects) with UdonSharp.",
+                    "url": "https://github.com/puk06/UdonAnimationSystem/releases/download/v0.1.0/net.puk06.udon-animation-system-v0.1.0.zip?"
                 }
             }
         }
