@@ -1,6 +1,59 @@
 {
     "Releases": [
         {
+            "Version": "2.13.0-beta.5",
+            "ReleaseDate": "2026-11-16",
+            "ChangeLogs": {
+                "Added": [
+                    "Show folder name in folder item tooltip by @puk06",
+                    "Add global handler for unhandled exceptions by @puk06"
+                ],
+                "Fixed": [],
+                "Changed": [
+                    "Write files atomically via temp file by @puk06",
+                    "Enable ReadyToRun for release builds by @aoyonn",
+                    "Add debug-only timing instrumentation to initializable registry by @puk06",
+                    "Hide grid tags outside pointer hover by @aoyonn",
+                    "Bump version to 2.13.0-beta.5 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.13.0-beta.5",
+            "DownloadUrls": {
+                "flatpak-aarch64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.13.0-beta.5/com.github.puk06.vrc_avatar_explorer-aarch64.flatpak",
+                    "Sha256": "1dba18e2dcd3cd99cbc386d2f9f7711a97ba4a8130c70c5f060cab9d85186863"
+                },
+                "flatpak-x86_64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.13.0-beta.5/com.github.puk06.vrc_avatar_explorer-x86_64.flatpak",
+                    "Sha256": "a01e84809238f23b0e7174837a093211befead952bec33965feb070c920a943b"
+                },
+                "linux-arm64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.13.0-beta.5/VRC-Avatar-Explorer_2.13.0-beta.5-linux-arm64.tar.gz",
+                    "Sha256": "84b09e8379cd0c3aa52328aa708539feeac5cea2421c51abba9321d91c9cdda5"
+                },
+                "linux-musl-x64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.13.0-beta.5/VRC-Avatar-Explorer_2.13.0-beta.5-linux-musl-x64.tar.gz",
+                    "Sha256": "97421a9bb35e1780778ce56f0ca02c5b227a3ef2c0b759ae843e3b1d314e20d7"
+                },
+                "linux-x64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.13.0-beta.5/VRC-Avatar-Explorer_2.13.0-beta.5-linux-x64.tar.gz",
+                    "Sha256": "4a276ab10a65f8072d8a6509d27f6f760a965affe299a3ade5df09fbc213d6b5"
+                },
+                "osx-arm64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.13.0-beta.5/VRC-Avatar-Explorer_2.13.0-beta.5-osx-arm64.zip",
+                    "Sha256": "e5804dbadd667211313a2c91d5294420e8a889115f5709234a166646f613eb92"
+                },
+                "win-arm64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.13.0-beta.5/VRC-Avatar-Explorer_2.13.0-beta.5-win-arm64_setup.exe",
+                    "Sha256": "c3092231f6dc0da3dd4dafa2ea8a0ac4b3a39b4683d30544c70d9a731c679f9f"
+                },
+                "win-x64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.13.0-beta.5/VRC-Avatar-Explorer_2.13.0-beta.5-win-x64_setup.exe",
+                    "Sha256": "e9abcbbe1e58eb6c5767b63fedc7573ee3ee529a754f13d1572751f1cc4d4ad9"
+                }
+            }
+        },
+        {
             "Version": "2.13.0-beta.4",
             "ReleaseDate": "2026-11-12",
             "ChangeLogs": {
