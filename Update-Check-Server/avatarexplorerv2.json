@@ -1,6 +1,62 @@
 {
     "Releases": [
         {
+            "Version": "2.13.0-beta.7",
+            "ReleaseDate": "2026-11-18",
+            "ChangeLogs": {
+                "Added": [
+                    "Add default category tab setting by @puk06",
+                    "Highlight items with unset supported avatar by @puk06",
+                    "Add per-item supports all avatars flag by @puk06"
+                ],
+                "Fixed": [
+                    "Trim whitespace after removing text brackets by @puk06",
+                    "Keep UI scale in a single source of truth by @puk06",
+                    "Refresh default category combo box on language change by @puk06",
+                    "Unify item card height for empty and single-line tags (#990) by @puk06"
+                ],
+                "Changed": [
+                    "Update ReactiveUI and SharpCompress packages by @puk06",
+                    "Bump version to 2.13.0-beta.7 by @puk06"
+                ]
+            },
+            "ReleaseUrl": "https://github.com/puk06/VRC-Avatar-Explorer/releases/tag/v2.13.0-beta.7",
+            "DownloadUrls": {
+                "flatpak-aarch64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.13.0-beta.7/com.github.puk06.vrc_avatar_explorer-aarch64.flatpak",
+                    "Sha256": "c23f7ccea34692339a14491e8d503ea72f0360044155d1c2f83cef15fab4b545"
+                },
+                "flatpak-x86_64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.13.0-beta.7/com.github.puk06.vrc_avatar_explorer-x86_64.flatpak",
+                    "Sha256": "6fd067ee06a197478ecafd65ff821c460e50bea31fae377846a0611658d643ba"
+                },
+                "linux-arm64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.13.0-beta.7/VRC-Avatar-Explorer_2.13.0-beta.7-linux-arm64.tar.gz",
+                    "Sha256": "6b1a1aa700ce8fa074fe5cc31be2a9fe9912e45700d73903fa8e6b5893c6456c"
+                },
+                "linux-musl-x64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.13.0-beta.7/VRC-Avatar-Explorer_2.13.0-beta.7-linux-musl-x64.tar.gz",
+                    "Sha256": "a110a73b78889a029abd757925126cf9cc47753192ecbd5780f740733b27b9ba"
+                },
+                "linux-x64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.13.0-beta.7/VRC-Avatar-Explorer_2.13.0-beta.7-linux-x64.tar.gz",
+                    "Sha256": "f00db0617dff4485dffca6856c37dda8a990836e6626f3f2b911b89d4228c3dd"
+                },
+                "osx-arm64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.13.0-beta.7/VRC-Avatar-Explorer_2.13.0-beta.7-osx-arm64.zip",
+                    "Sha256": "4fe0e7a2cbcdccdbe7e50f9fe3b7e4607678f41d0f5bc05d53ef9de48175d9f7"
+                },
+                "win-arm64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.13.0-beta.7/VRC-Avatar-Explorer_2.13.0-beta.7-win-arm64_setup.exe",
+                    "Sha256": "3a949c393599f3971c0599f24c7fd76ddb97a1b132f5ad6bec072c93d16c9e60"
+                },
+                "win-x64": {
+                    "Url": "https://github.com/puk06/VRC-Avatar-Explorer/releases/download/v2.13.0-beta.7/VRC-Avatar-Explorer_2.13.0-beta.7-win-x64_setup.exe",
+                    "Sha256": "68a37936fadd1e73e90154ed78a80b588b2254a6fde6dfb604a9a28a797d5ef8"
+                }
+            }
+        },
+        {
             "Version": "2.13.0-beta.6",
             "ReleaseDate": "2026-11-16",
             "ChangeLogs": {
