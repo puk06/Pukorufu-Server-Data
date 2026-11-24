@@ -1,7 +1,6 @@
 {
-    "LatestVersion": "2.1.4",
+    "LatestVersion": "2.2.0",
     "ChangeLog": [
-        "プレビュー周りの最適化",
-        "メモリリークの修正"
+        "マスク選択モードにAlphaを追加"
     ]
 }
